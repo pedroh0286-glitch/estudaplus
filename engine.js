@@ -1,5 +1,5 @@
 'use strict';
-/* AEDS 8.29 — motor pedagógico puro.
+/* AEDS 9.0 — motor pedagógico puro.
    Mantém cálculo de retenção, estágios de domínio e TRI separado da interface. */
 window.AEDS_ENGINE=(()=>{
   const DAY=86400000;
@@ -49,5 +49,5 @@ window.AEDS_ENGINE=(()=>{
   function triParams(q){const d=String(q?.difficulty||'médio').toLowerCase(),opts=Math.max(2,q?.options?.length||5),fallback=d.includes('fác')?{a:.95,b:-1.15}:d.includes('dif')?{a:1.2,b:1.1}:{a:1.08,b:0},t=q?.tri||{};return {a:Number.isFinite(Number(t.a))?Number(t.a):fallback.a,b:Number.isFinite(Number(t.b))?Number(t.b):fallback.b,c:Number.isFinite(Number(t.c))?Number(t.c):Math.min(.35,1/opts),source:q?.tri?'calibrado/importado':'estimado pela dificuldade'}}
   function triProb(theta,p){const z=clamp(1.7*p.a*(theta-p.b),-35,35);return p.c+(1-p.c)/(1+Math.exp(-z))}
   function triEstimate(responses){if(!responses?.length)return {theta:0,score:500,se:null,coherence:0,n:0,estimated:true};const grid=[];let maxLog=-Infinity;for(let theta=-4;theta<=4.0001;theta+=.05){let ll=-theta*theta/2;for(const r of responses){const p=clamp(triProb(theta,triParams(r.q)),1e-9,1-1e-9);ll+=r.right?Math.log(p):Math.log(1-p)}grid.push([theta,ll]);if(ll>maxLog)maxLog=ll}let sw=0,st=0;for(const [t,ll] of grid){const w=Math.exp(ll-maxLog);sw+=w;st+=t*w}const theta=sw?st/sw:0;let variance=0;for(const [t,ll] of grid){const w=Math.exp(ll-maxLog);variance+=(t-theta)**2*w}variance=sw?variance/sw:0;const score=Math.round(clamp(500+100*theta,100,900));const sorted=[...responses].sort((x,y)=>triParams(x.q).b-triParams(y.q).b);let inv=0,pairs=0;for(let i=0;i<sorted.length;i++)for(let j=i+1;j<sorted.length;j++){if(triParams(sorted[j].q).b-triParams(sorted[i].q).b<.45)continue;pairs++;if(!sorted[i].right&&sorted[j].right)inv++}const coherence=pairs?Math.round(100*(1-inv/pairs)):100;return {theta:Number(theta.toFixed(2)),score,se:Number(Math.sqrt(variance).toFixed(2)),coherence,n:responses.length,estimated:responses.some(r=>!r.q?.tri)}}
-  return {VERSION:'8.29',DAY,normalizeSkillStat,updateSkill,stage,isDue,reviewLabel,triParams,triProb,triEstimate};
+  return {VERSION:'9.0',DAY,normalizeSkillStat,updateSkill,stage,isDue,reviewLabel,triParams,triProb,triEstimate};
 })();

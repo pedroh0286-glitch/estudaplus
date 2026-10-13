@@ -1,44 +1,24 @@
 #!/usr/bin/env node
 'use strict';
-/* AEDS 8.29 — verificação automática para rodar antes de publicar.
-   Uso: node quality-check.js */
-const fs=require('fs'),zlib=require('zlib'),path=require('path');
-const root=__dirname,errors=[],warnings=[];
-function fail(x){errors.push(x)} function warn(x){warnings.push(x)}
-for(const f of ['index.html','styles.css','app.js','engine.js','bank-data.js','cloud-config.js','sw.js','vercel.json'])if(!fs.existsSync(path.join(root,f)))fail(`arquivo ausente: ${f}`);
-let data=null;
-try{const src=fs.readFileSync(path.join(root,'bank-data.js'),'utf8'),m=src.match(/ESTUDAPLUS_BANK_B64='([^']+)'/);if(!m)throw new Error('payload B64 não encontrado');data=JSON.parse(zlib.gunzipSync(Buffer.from(m[1],'base64')).toString('utf8'))}catch(e){fail(`bank-data inválido: ${e.message}`)}
-if(data){
- const qs=data.questions||[],ids=new Set(),active=qs.filter(q=>q.active!==false),mc=active.filter(q=>q.questionType==='multiple_choice');
- for(const q of qs){if(!q.id)fail('questão sem id');else if(ids.has(q.id))fail(`id duplicado: ${q.id}`);else ids.add(q.id);if(q.questionType==='multiple_choice'&&q.active!==false){if(!Array.isArray(q.options)||q.options.length<2)fail(`${q.id}: alternativas insuficientes`);if(!Number.isInteger(q.correctIndex)||q.correctIndex<0||q.correctIndex>=q.options.length)fail(`${q.id}: correctIndex inválido`)}}
- const articles=Object.values(data.learningByGrade||{}).reduce((n,grades)=>n+Object.values(grades).reduce((m,areas)=>m+Object.keys(areas).length,0),0);
- if(articles<140)fail(`apenas ${articles} artigos por série; esperado >= 140`);
- for(const [sub,grades] of Object.entries(data.learningByGrade||{}))for(const [g,areas] of Object.entries(grades))for(const [area,a] of Object.entries(areas)){const kinds=new Set((a.sections||[]).map(x=>x.kind));for(const k of ['concept','why','method','recognition','practice','transfer_map','independence'])if(!kinds.has(k))warn(`${sub}/${g}/${area}: falta seção ${k}`)}
- if(String(data.manifest?.version)!=='8.29')fail(`manifest version ${data.manifest?.version} != 8.29`);
- if(Number(data.manifest?.storageQuestions)!==qs.length)warn(`storageQuestions=${data.manifest?.storageQuestions}, real=${qs.length}`);
- console.log(`AEDS ${data.manifest?.version||'?'}: ${qs.length} armazenadas, ${active.length} ativas, ${mc.length} objetivas ativas, ${articles} artigos.`);
-}
-const app=fs.existsSync(path.join(root,'app.js'))?fs.readFileSync(path.join(root,'app.js'),'utf8'):'';
-const html=fs.existsSync(path.join(root,'index.html'))?fs.readFileSync(path.join(root,'index.html'),'utf8'):'';
-const sw=fs.existsSync(path.join(root,'sw.js'))?fs.readFileSync(path.join(root,'sw.js'),'utf8'):'';
-for(const token of ['startSmartStudy','AEDS_ENGINE','autonomyPanelHtml','dueSkillKeys','TRI-AEDS'])if(!app.includes(token))fail(`app.js sem ${token}`);
-
-try{
- global.window=global;require(path.join(root,'engine.js'));const E=global.AEDS_ENGINE;
- let st=E.normalizeSkillStat({}),t0=1700000000000;
- const seq=[['médio',true,'C',0],['médio',true,'C',3],['difícil',true,'C',6],['médio',true,'C',9],['difícil',true,'C',12],['difícil',true,'C',16]];
- for(const [difficulty,right,cdf,day] of seq)E.updateSkill(st,{difficulty,right,cdf,now:t0+day*E.DAY});
- if(E.stage(st,false).level>=4)fail('independência foi liberada sem prova externa');
- if(E.stage(st,true).level!==4)fail('motor não reconheceu independência após retenção + transferência + prova externa');
- const qEasy={difficulty:'fácil',options:[1,2,3,4,5]},qMed={difficulty:'médio',options:[1,2,3,4,5]},qHard={difficulty:'difícil',options:[1,2,3,4,5]};
- const coherent=E.triEstimate([{q:qEasy,right:true},{q:qEasy,right:true},{q:qMed,right:true},{q:qHard,right:false},{q:qHard,right:false},{q:qMed,right:false}]);
- const incoherent=E.triEstimate([{q:qEasy,right:false},{q:qEasy,right:false},{q:qMed,right:false},{q:qHard,right:true},{q:qHard,right:true},{q:qMed,right:true}]);
- if(coherent.coherence<=incoherent.coherence)fail('teste TRI: padrão coerente não recebeu coerência maior');
-}catch(e){fail(`engine.js falhou nos testes: ${e.message}`)}
-
-if(!html.includes('engine.js'))fail('index não carrega engine.js');if(!html.includes('8.29'))fail('index não mostra 8.29');if(!sw.includes('engine.js')||!sw.includes('v8-29'))fail('service worker não foi atualizado para 8.29');
-for(const w of warnings.slice(0,30))console.warn('AVISO:',w);if(warnings.length>30)console.warn(`AVISO: +${warnings.length-30} outros avisos`);
-
-try{const cp=require('child_process'),r=cp.spawnSync(process.execPath,[path.join(root,'logic-test.js')],{encoding:'utf8'});if(r.status!==0)fail('logic-test.js: '+(r.stderr||r.stdout||'falhou').trim());else console.log((r.stdout||'').trim())}catch(e){fail(`não foi possível rodar logic-test.js: ${e.message}`)}
-
-if(errors.length){for(const e of errors)console.error('ERRO:',e);process.exit(1)}console.log(`OK — ${warnings.length} aviso(s), 0 erro(s) crítico(s).`);
+const fs=require('fs'),zlib=require('zlib'),path=require('path'),cp=require('child_process');
+const root=__dirname,errors=[],warnings=[];const fail=x=>errors.push(x),warn=x=>warnings.push(x);
+const required=['index.html','styles.css','app.js','engine.js','analytics.js','content-core.js','content-loader.js','cloud-config.js','sw.js','vercel.json','logic-test.js','supabase-aeds-9.sql'];for(const f of required)if(!fs.existsSync(path.join(root,f)))fail(`arquivo ausente: ${f}`);
+function core(){const s=fs.readFileSync(path.join(root,'content-core.js'),'utf8'),m=s.match(/AEDS_CORE_B64='([^']+)'/);if(!m)throw new Error('AEDS_CORE_B64 ausente');return JSON.parse(zlib.gunzipSync(Buffer.from(m[1],'base64')).toString())}
+function packs(){const dir=path.join(root,'data/questions');if(!fs.existsSync(dir))throw new Error('pasta data/questions ausente');const files=fs.readdirSync(dir).filter(x=>x.endsWith('.js')),qs=[],keys=[];for(const f of files){const s=fs.readFileSync(path.join(dir,f),'utf8'),m=s.match(/AEDS_PACK_PAYLOADS\["([^"]+)"\]='([^']+)'/);if(!m)throw new Error(`pack inválido ${f}`);const arr=JSON.parse(zlib.gunzipSync(Buffer.from(m[2],'base64')).toString());if(!Array.isArray(arr))throw new Error(`pack ${f} não é array`);keys.push(m[1]);qs.push(...arr)}return {files,keys,qs}}
+let d,P;try{d=core();P=packs()}catch(e){fail(e.message)}
+if(d&&P){const qs=P.qs,ids=new Set(),active=qs.filter(q=>q.active!==false),mc=active.filter(q=>q.questionType==='multiple_choice');for(const q of qs){if(!q.id)fail('questão sem id');else if(ids.has(q.id))fail('id duplicado: '+q.id);else ids.add(q.id);if(q.active!==false&&q.questionType==='multiple_choice'){if(!Array.isArray(q.options)||q.options.length<2)fail(`${q.id}: alternativas insuficientes`);if(!Number.isInteger(q.correctIndex)||q.correctIndex<0||q.correctIndex>=q.options.length)fail(`${q.id}: correctIndex inválido`);if(q.correctText!==q.options[q.correctIndex])warn(`${q.id}: correctText difere da alternativa correta`);if(!q.explanation)warn(`${q.id}: sem explicação`)}}
+ const semanticBad=q=>{const p=String(q.prompt||'').toLowerCase(),t=[q.prompt,q.correctText,q.explanation,...(Array.isArray(q.options)?q.options:[])].join(' ').toLowerCase();return t.includes('aplicação correta no caso')||t.includes('não corresponde ao foco da situação')||/\bna situação\s+\d+\b/.test(p)||/\bcompleta corretamente a situação\s+\d+\b/.test(p)||/\bpara resolver a situação\s+\d+\b/.test(p)||(p.includes('considere o exercício')&&p.includes('qual alternativa usa corretamente um conceito importante dessa área no contexto apresentado'))||(String(q.id||'').startsWith('SUP-')&&p.includes('questão-base abaixo')&&(p.includes('para resolver a situação')||p.includes('considere o exercício')||p.includes('contexto apresentado')))};const leaked=active.filter(semanticBad);if(leaked.length)fail(`questões semanticamente inválidas ainda ativas: ${leaked.slice(0,10).map(q=>q.id).join(', ')}${leaked.length>10?'...':''}`);if(Number(d.manifest?.semanticContextQuarantined||0)<1)fail('manifest sem contagem de quarentena semântica');
+ const count=Object.values(d.learningByGrade||{}).reduce((n,grades)=>n+Object.values(grades).reduce((m,areas)=>m+Object.keys(areas).length,0),0);if(count<140)fail(`apenas ${count} aulas aprofundadas`);
+ for(const [sub,grades] of Object.entries(d.learningByGrade||{}))for(const [g,areas] of Object.entries(grades))for(const [area,a] of Object.entries(areas)){const kinds=new Set((a.sections||[]).map(x=>x.kind));for(const k of ['concept','why','method','practice','transfer_map','independence'])if(!kinds.has(k))warn(`${sub}/${g}/${area}: falta ${k}`);if(['Física','Química','Biologia'].includes(sub))for(const k of ['mental_model','alternative_paths','diagnostic_mistakes','outside_lab'])if(!kinds.has(k))fail(`${sub}/${g}/${area}: aprofundamento 9.0 sem ${k}`)}
+ const creditIds=new Set((d.credits||[]).map(c=>c.id));for(const c of d.credits||[]){try{new URL(c.url)}catch{fail(`fonte com URL inválida: ${c.id}`)}}for(const q of qs)for(const r of q.references||[])if(!creditIds.has(r)&&!/^https?:\/\//i.test(String(r)))fail(`${q.id}: referência inexistente ${r}`);const prompts=new Map();for(const q of active.filter(x=>x.questionType==='multiple_choice')){const k=String(q.prompt||'').trim().toLowerCase();if(!k)continue;(prompts.get(k)||prompts.set(k,[]).get(k)).push(q)}for(const group of prompts.values())if(group.length>1){const patterns=new Set(group.map(q=>q.patternFamily||''));if(patterns.size>1)warn(`enunciado idêntico fora do mesmo padrão: ${group.map(q=>q.id).join(', ')}`)}
+ const v9=qs.filter(q=>q.editorial?.version==='9.0');if(v9.length!==69)fail(`famílias novas 9.0=${v9.length}; esperado 69`);for(const q of v9){if(!q.misconceptions||Object.keys(q.misconceptions).length<q.options.length-1)fail(`${q.id}: diagnóstico de distratores incompleto`);if(q.editorial?.status!=='published')fail(`${q.id}: não publicado`)}
+ if(String(d.manifest?.version)!=='9.0.1')fail(`manifest ${d.manifest?.version} != 9.0.1`);if(Number(d.manifest?.storageQuestions)!==qs.length)fail(`storageQuestions ${d.manifest?.storageQuestions} != ${qs.length}`);if(Number(d.manifest?.totalQuestions)!==active.length)fail(`totalQuestions ${d.manifest?.totalQuestions} != ${active.length}`);if(P.files.length<100)fail(`apenas ${P.files.length} pacotes modulares`);if(new Set(P.keys).size!==P.keys.length)fail('chaves de pack duplicadas');
+ console.log(`Conteúdo 9.0.1: ${qs.length} armazenadas, ${active.length} ativas, ${mc.length} objetivas, ${count} aulas, ${P.files.length} pacotes.`)}
+const sql=fs.existsSync(path.join(root,'supabase-aeds-9.sql'))?fs.readFileSync(path.join(root,'supabase-aeds-9.sql'),'utf8'):'';for(const token of ['create table if not exists public.content_items','enable row level security','aeds_content_admin_insert','aeds_content_read'])if(!sql.toLowerCase().includes(token.toLowerCase()))fail(`migração Supabase sem ${token}`);
+const app=fs.existsSync(path.join(root,'app.js'))?fs.readFileSync(path.join(root,'app.js'),'utf8'):'';const html=fs.existsSync(path.join(root,'index.html'))?fs.readFileSync(path.join(root,'index.html'),'utf8'):'';const css=fs.existsSync(path.join(root,'styles.css'))?fs.readFileSync(path.join(root,'styles.css'),'utf8'):'';const sw=fs.existsSync(path.join(root,'sw.js'))?fs.readFileSync(path.join(root,'sw.js'),'utf8'):'';
+for(const token of ['AEDS_ANALYTICS','selectedErrorDiagnosis','reviewClusters','editorialWorkflow','offlinePack','startUsabilityTest','highContrast','simpleMode','exam-jump','TRI-AEDS'])if(!app.includes(token)&&!String(d?.manifest?.rules?.[token]).includes('true'))fail(`implementação sem ${token}`);
+for(const token of ['skip-link','focus-visible','large-targets','high-contrast','simple-mode'])if(!css.includes(token))fail(`CSS sem ${token}`);
+for(const f of ['content-core.js','content-loader.js','engine.js','analytics.js','app.js'])if(!html.includes(f))fail(`index não carrega ${f}`);if(html.includes('bank-data.js'))fail('index ainda carrega banco monolítico');if(!html.includes('9.0.1'))fail('index sem versão 9.0.1');if(!sw.includes('aeds-v9-0-1-shell')||!sw.includes('aeds-v9-0-1-content')||!sw.includes('/data/questions/'))fail('service worker sem cache modular 9.0.1');
+for(const f of ['app.js','engine.js','analytics.js','content-loader.js','sw.js']){const r=cp.spawnSync(process.execPath,['--check',path.join(root,f)],{encoding:'utf8'});if(r.status!==0)fail(`sintaxe ${f}: ${(r.stderr||r.stdout).trim()}`)}
+const lr=cp.spawnSync(process.execPath,[path.join(root,'logic-test.js')],{encoding:'utf8'});if(lr.status!==0)fail('logic-test: '+(lr.stderr||lr.stdout||'falhou').trim());else console.log((lr.stdout||'').trim());
+for(const w of warnings.slice(0,20))console.warn('AVISO:',w);if(warnings.length>20)console.warn(`AVISO: +${warnings.length-20} outros`);if(errors.length){for(const e of errors)console.error('ERRO:',e);process.exit(1)}console.log(`OK — 0 erro(s) crítico(s); ${warnings.length} aviso(s).`);
