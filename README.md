@@ -1,176 +1,146 @@
-# AEDS 8.27 — A Evolução do Saber
+# AEDS 8.29 — Autonomia, retenção e qualidade
 
-A 8.27 parte integralmente da AEDS 8.26 e acrescenta uma camada curricular de aprofundamento voltada ao ENEM, sem apagar o conteúdo escolar normal, sem trocar a chave de progresso local e sem alterar a configuração do Supabase.
+AEDS — A Evolução do Saber.
 
-## O que permanece da 8.26
+Esta versão continua diretamente a AEDS 8.28. O objetivo desta atualização não foi aumentar artificialmente o número de questões, e sim melhorar a qualidade do aprendizado, a autonomia do aluno, os simulados e a segurança de evolução do projeto.
 
-- interface visual e simples para celular e computador;
-- barra mobile fixa, sem arrastar horizontalmente;
-- ações principais grandes e linguagem visual por ícones;
-- leitura por voz quando disponível no navegador;
-- reconstrução de Matemática da 8.23;
-- reconstrução de Português da 8.24;
-- bloqueio de repetição por questão, família semântica, padrão estrutural e similaridade;
-- CDF, CID, revisão, provas, desempenho, redação, programação, rotina e administração;
-- Supabase, Vercel e GitHub compatíveis com a estrutura anterior.
+## Filosofia pedagógica
 
-## Nova camada ENEM 2026
+A AEDS deve funcionar como ponte, não como dependência. O aluno deve compreender, praticar, transferir a ideia para uma situação nova, lembrar dela depois de algum tempo e conseguir continuar pela escola, livro, professor ou outra fonte.
 
-A versão adiciona `focusCurriculum`, um mapa de aprofundamento que não substitui a trilha escolar. Ele mostra ao aluno, dentro da série e da área que já existem na AEDS, quais micro-habilidades precisam ser dominadas para chegar ao nível de aplicação exigido pelo ENEM.
+Cada micro-habilidade passa a ter quatro estágios:
 
-A camada contém:
+1. 🌱 Conhecendo
+2. 🧠 Entendendo
+3. 🔄 Aplicando
+4. 🏆 Independente
 
-- **13 matérias com trilhas especiais**;
-- **68 unidades série × área aprofundadas**;
-- **648 micro-habilidades**;
-- **68 artigos de aprendizagem específicos por série e área**;
-- conexão com Matemática e Português já estruturados em micro-habilidades nas versões anteriores.
+O estágio Independente não é liberado apenas por uma sequência de acertos. Ele exige desempenho consistente, aplicação em questão não fácil, retenção depois de um intervalo e uma confirmação de que o aluno conseguiu usar/explicar o conteúdo fora da AEDS.
 
-### Biologia
+## Estudar agora
 
-Ecologia, citologia e fisiologia humana foram desdobradas em cadeias e teias alimentares, níveis tróficos, fluxo de energia, ciclos biogeoquímicos, relações ecológicas, dinâmica populacional, sucessão, impactos ambientais, conservação, sustentabilidade, membrana, organelas, metabolismo celular, tecidos, sistemas humanos, homeostase e integração fisiológica.
+A tela inicial ganhou `🎯 Estudar agora · sessão curta`.
 
-### Física
+O motor monta uma sessão de aproximadamente 7 itens combinando, quando houver material disponível:
 
-Mecânica foi distribuída entre Cinemática, MUV, Leis de Newton e Trabalho/Energia. Eletrodinâmica foi aprofundada em corrente, tensão, resistência, Lei de Ohm, associação de resistores, potência, consumo de energia, circuitos e interpretação de esquemas e situações cotidianas.
+- revisão vencida por repetição espaçada;
+- micro-habilidade fraca;
+- conteúdo ainda não praticado;
+- aplicação;
+- desafio;
+- habilidade ligada a erro anterior.
 
-### Química
+A sessão respeita as regras centrais da AEDS:
 
-Estequiometria, soluções, termoquímica, cinética, equilíbrio, eletroquímica e química orgânica foram divididas em habilidades menores. A trilha inclui mol, relações estequiométricas, reagente limitante, rendimento, concentração e diluição, propriedades das soluções, energia das reações, velocidade, equilíbrio, pilhas/eletrólise, funções orgânicas, propriedades e aplicações.
+- não repetir questão já respondida;
+- não repetir família semântica já usada;
+- não repetir padrão estrutural já usado;
+- evitar enunciados muito semelhantes;
+- variar resposta correta;
+- preferir ficar sem item adequado a enganar o aluno com repetição disfarçada.
 
-### Matemática
+Ao final da sessão, a AEDS recomenda que o aluno pare e teste o conhecimento fora da plataforma.
 
-A trilha existente foi aprofundada especialmente na sequência:
+## Repetição espaçada
 
-`razão → proporção → regra de três simples → regra de três composta → porcentagem → escala → geometria → estatística/probabilidade → funções`.
+O motor pedagógico (`engine.js`) agora agenda revisões por micro-habilidade. O intervalo muda conforme acerto, dificuldade e CDF. Acertos confiantes podem ampliar o intervalo; erros e dúvidas antecipam nova revisão.
 
-Também ficaram explícitos perímetro, áreas, volumes, leitura de gráficos e tabelas, média, mediana, moda e funções de 1º e 2º grau.
+A retenção é registrada separadamente do acerto imediato.
 
-### Linguagens
+## Aulas aprofundadas
 
-Português mantém o mapa detalhado da 8.24 e a camada ENEM reforça interpretação, gêneros, funções da linguagem e leitura contextual. Literatura aprofunda Modernismo e Literatura Contemporânea. Inglês e Espanhol ganham trilhas de compreensão global, inferência, vocabulário pelo contexto, referência, intenção e leitura estratégica.
+Os 140 artigos aprofundados passam a trabalhar, de forma consistente:
 
-Artes aprofunda arte contemporânea e patrimônio cultural. Educação Física trabalha esporte, corpo, saúde, mídia, padrões corporais e leitura crítica das representações do corpo.
+- conceito;
+- por que funciona / causa e mecanismo;
+- método seguro;
+- caminhos alternativos e atalhos válidos;
+- quando o atalho não funciona;
+- como reconhecer o tipo de problema;
+- conexão com conhecimentos anteriores;
+- transferência para outro contexto;
+- prática curta;
+- explicação com as próprias palavras;
+- prova de independência fora da AEDS.
 
-### Humanas
+A profundidade é adaptada ao tipo de disciplina. Matemática enfatiza relações e representações; Física, sistema/referencial/grandezas/princípio; Química, níveis macroscópico, corpuscular e simbólico; História, contexto/fontes/agentes/causalidade; Linguagens, intenção/contexto/efeito; e assim por diante.
 
-História aprofunda Brasil Colônia, Era Vargas, ditadura/redemocratização, guerras mundiais, Guerra Fria e século XX. Geografia aprofunda espaço agrário, urbanização, questões ambientais e geopolítica. Filosofia trabalha filosofia antiga, moderna, ética e política. Sociologia trabalha cultura, trabalho, desigualdade, política/poder e globalização.
+## Feedback de qualidade
 
-## Aprendizado por série
+O aluno pode marcar uma aula ou questão como confusa. O administrador recebe esses registros na área administrativa para localizar conteúdo que precisa de reescrita, revisão de alternativa ou melhoria de explicação.
 
-A AEDS deixa de depender apenas de um texto genérico associado ao nome de uma área. A 8.27 inclui `learningByGrade`: cada uma das 68 unidades novas possui artigo próprio para aquela série.
+## Simulado ENEM
 
-Cada artigo pode mostrar:
+O simulado foi reorganizado para seguir a composição atual do exame:
 
-1. o que precisa ser dominado;
-2. micro-habilidades da trilha;
-3. aprofundamento adequado àquele ano;
-4. como o ENEM transforma o conteúdo em problema contextualizado;
-5. passos de estudo;
-6. exemplo;
-7. erros comuns;
-8. resumo e referências.
+- Dia 1: Linguagens + Ciências Humanas, até 90 questões (45 por grande área quando o banco inédito permite), 5h30.
+- Dia 2: Ciências da Natureza + Matemática, até 90 questões (45 por grande área quando o banco inédito permite), 5h.
 
-Isso evita usar exatamente a mesma explicação de um assunto para todas as séries.
+A montagem continua obedecendo às regras de não repetição da AEDS.
 
-## Redação ENEM 2026
+Ao finalizar, o aluno recebe:
 
-A área de Redação foi atualizada para trabalhar explicitamente as cinco competências do Inep. O guia lembra que o texto é dissertativo-argumentativo, com até 30 linhas, e que cada competência pode receber de 0 a 200 pontos.
+- quantidade de acertos e erros/em branco;
+- TRI-AEDS estimada;
+- todas as questões erradas/em branco;
+- resposta marcada e correta;
+- explicação e habilidade;
+- opção de revisar com QUESTÕES NOVAS da mesma habilidade.
 
-A proposta de intervenção é ensinada pelos cinco elementos usados na orientação oficial:
+## TRI-AEDS
 
-- ação;
-- agente;
-- modo ou meio;
-- efeito/finalidade;
-- detalhamento.
+A TRI-AEDS continua sendo uma estimativa pedagógica baseada em modelo 3PL. Ela considera dificuldade, discriminação estimada, chance de acerto casual e coerência do padrão de respostas.
 
-A intervenção precisa estar conectada ao problema discutido e respeitar os direitos humanos; a AEDS não trata esses cinco elementos como uma frase pronta para decorar.
+Ela NÃO é apresentada como nota oficial do ENEM porque os itens da AEDS ainda não possuem calibração populacional oficial/pré-teste equivalente ao Inep.
 
-Foram adicionados seis novos temas autorais de treino, levando a lista interna para **45 temas de redação**.
+O administrador agora pode exportar histórico de respostas em CSV para futura calibração estatística dos itens quando houver volume suficiente de alunos e respostas.
 
-## Repertório: Brasil, um País do Futuro
+## Arquitetura
 
-A 8.27 inclui um dossiê autoral de estudo sobre **_Brasil, um País do Futuro_**, de Stefan Zweig, publicado em 1941.
+O cálculo de domínio, retenção, revisão espaçada e TRI foi isolado em `engine.js`. Isso reduz o acoplamento da interface com as regras pedagógicas e prepara o projeto para modularização maior em versões futuras.
 
-O livro é usado como repertório crítico para eixos como:
+Arquivos principais:
 
-- educação e projeto de país;
-- desigualdade;
-- infraestrutura e saneamento;
-- ciência e tecnologia;
-- sustentabilidade;
-- democracia e cidadania;
-- cultura e identidade;
-- trabalho e desenvolvimento.
+- `index.html` — estrutura da aplicação;
+- `styles.css` — interface responsiva;
+- `app.js` — navegação, estado e integração;
+- `engine.js` — motor pedagógico e TRI;
+- `bank-data.js` — conteúdo e questões;
+- `cloud-config.js` — configuração Supabase;
+- `sw.js` — cache/offline;
+- `vercel.json` — publicação;
+- `quality-check.js` — verificação de integridade;
+- `logic-test.js` — testes do motor/simulado.
 
-A AEDS ensina a usar a tensão entre a promessa de futuro e os obstáculos concretos do presente, em vez de simplesmente inserir o título como citação decorativa. Também chama atenção para o contexto histórico e para os limites de transformar uma visão otimista de 1941 em prova absoluta sobre o Brasil atual.
+## Nuvem e compatibilidade
 
-**Importante:** a AEDS não reproduz a tradução integral do livro. O material incluído é um dossiê de estudo e repertório, com referências para pesquisa, evitando problemas autorais e incentivando leitura crítica.
+A chave local de estado continua `estudaplus_final_v8_2`, preservando migração do progresso anterior.
 
-## Fontes adicionadas
+A estrutura já existente de `user_state` no Supabase passa a sincronizar também os dados de independência e feedback, sem exigir nova tabela.
 
-Entre as referências registradas no banco estão:
+O arquivo `cloud-config.js` foi preservado.
 
-- Inep — Cartilha da Redação do Enem 2026;
-- materiais oficiais do Inep sobre Competência V;
-- análise de incidência de conteúdos do ENEM publicada em 2026;
-- Biblioteca Nacional Digital — materiais sobre Stefan Zweig;
-- pesquisa acadêmica da USP sobre *Brasil, um País do Futuro*;
-- BNCC/MEC, já usada como referência curricular geral.
+## Qualidade automática
 
-## Questões e antirrepetição
+Execute:
 
-A 8.27 **não cria milhares de questões automáticas só para aumentar o contador**. O banco permanece com:
+```bash
+node quality-check.js
+```
 
-- **29.697 questões ativas**;
-- **34.254 questões armazenadas**, contando o legado de Português em quarentena.
+O teste verifica, entre outros pontos:
 
-A camada nova aprofunda primeiro a taxonomia e o conteúdo teórico. Isso permite que futuras famílias de questões sejam adicionadas diretamente às lacunas corretas sem repetir perguntas, respostas ou estruturas quase iguais.
+- IDs duplicados;
+- alternativas/gabaritos inválidos;
+- presença das seções essenciais dos artigos aprofundados;
+- versão/cache;
+- regras básicas do motor de domínio;
+- lógica TRI;
+- sessão inteligente sem famílias/padrões/respostas repetidas;
+- composição dos dois dias do simulado.
 
-O motor continua evitando:
+Na geração desta versão, o verificador encontrou 0 erros críticos e 0 avisos.
 
-- a mesma questão;
-- a mesma família semântica;
-- o mesmo padrão estrutural já usado;
-- enunciados excessivamente semelhantes;
-- repetição inadequada de resposta correta.
+## Conteúdo preservado
 
-## Dados novos do banco
-
-O `bank-data.js` da 8.27 passa a fornecer também:
-
-- `focusCurriculum`;
-- `learningByGrade`;
-- `essayRepertoire`.
-
-Metadados da versão:
-
-- `version`: 8.27;
-- `focusCurriculumSubjects`: 13;
-- `focusCurriculumSkills`: 648;
-- `learningByGradeArticles`: 68;
-- `essayRepertoireGuides`: 1.
-
-## Compatibilidade e atualização
-
-A chave local de progresso continua sendo `estudaplus_final_v8_2`, para não apagar o histórico dos usuários existentes.
-
-`cloud-config.js` não precisa ser alterado para a atualização.
-
-O Service Worker usa o cache `aeds-v8-27-enem-deep-focus`, fazendo os navegadores abandonarem o cache da versão anterior quando recebem a 8.27.
-
-## Publicação
-
-O pacote de entrega possui somente os oito arquivos da raiz usados pelo projeto:
-
-- `README.md`
-- `app.js`
-- `bank-data.js`
-- `cloud-config.js`
-- `index.html`
-- `styles.css`
-- `sw.js`
-- `vercel.json`
-
-Substitua os arquivos correspondentes no repositório GitHub. O Vercel pode publicar o novo commit pelo fluxo já existente do projeto.
+A AEDS 8.29 mantém as 34.254 questões armazenadas da 8.28, sendo 29.697 ativas. Nenhuma questão foi alterada nesta atualização. O foco foi melhorar o motor, as aulas, a revisão, a autonomia e o simulado.
