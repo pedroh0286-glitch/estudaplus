@@ -1,0 +1,11 @@
+{
+  "version": "9.0.12",
+  "quality": "2.0",
+  "stored": 36783,
+  "active": 5140,
+  "hardErrors": 0,
+  "reviewWarnings": 243,
+  "warningTypes": {
+    "gabarito_lexicalmente_denunciado": 243
+  }
+}

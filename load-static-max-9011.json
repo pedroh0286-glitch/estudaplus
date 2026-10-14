@@ -1,0 +1,68 @@
+{
+  "version": "9.0.11",
+  "environment": {
+    "cpus": 5,
+    "totalMemoryBytes": 6236880896,
+    "fdSoftLimit": 16384
+  },
+  "holdMs": 180,
+  "attempts": [
+    {
+      "concurrent": 10000,
+      "ok": 10000,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 2029,
+      "maxInFlight": 10000
+    },
+    {
+      "concurrent": 16000,
+      "ok": 16000,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 3197,
+      "maxInFlight": 16000
+    },
+    {
+      "concurrent": 16350,
+      "ok": 16350,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 3190,
+      "maxInFlight": 16350
+    },
+    {
+      "concurrent": 16370,
+      "ok": 16363,
+      "fail": 7,
+      "firstError": "EMFILE",
+      "durationMs": 3488,
+      "maxInFlight": 16370
+    }
+  ],
+  "confirmations": [
+    {
+      "concurrent": 16350,
+      "ok": 16350,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 3002,
+      "maxInFlight": 16350
+    },
+    {
+      "concurrent": 16350,
+      "ok": 16350,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 3444,
+      "maxInFlight": 16350
+    }
+  ],
+  "maxZeroFailConcurrent": 16350,
+  "maxStableConcurrent": 16350,
+  "firstFailConcurrent": 16370,
+  "firstFailCount": 7,
+  "firstFailReason": "EMFILE",
+  "reachedEnvironmentCeiling": true,
+  "scope": "servidor HTTP local com arquivo pré-carregado; cada tentativa usa servidor e cliente novos. Mede o teto deste ambiente, não o limite contratado de Vercel/Supabase"
+}

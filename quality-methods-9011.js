@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+'use strict';
+const fs=require('fs'),path=require('path'),vm=require('vm');const root=__dirname,errors=[];const fail=x=>errors.push(x);
+const c={window:{}};vm.createContext(c);vm.runInContext(fs.readFileSync(path.join(root,'learning-methods.js'),'utf8'),c);const M=c.window.AEDS_METHODS;
+if(!M)fail('AEDS_METHODS não carregou');if(M?.VERSION!=='1.0')fail('versão inesperada do motor de métodos');
+const methods=M?.METHODS||[],ids=new Set(methods.map(x=>x.id)),rules=new Set(methods.map(x=>String(x.rule||'').match(/^M\d+/)?.[0]).filter(Boolean));
+if(methods.length!==61)fail(`esperadas 61 regras de método; vieram ${methods.length}`);if(ids.size!==methods.length)fail('IDs de método duplicados');if(rules.size!==methods.length)fail('números de regra M duplicados/ausentes');
+for(const m of methods){if(m.masteryCredit!==false)fail(`${m.id}: método concede crédito de domínio`);if(!m.title||!m.category||!m.rule||!m.instruction)fail(`${m.id}: definição incompleta`)}
+for(const [signal,list] of Object.entries(M.SIGNAL_MAP||{})){if(!list.length)fail(`${signal}: sem métodos`);for(const id of list)if(!ids.has(id))fail(`${signal}: método inexistente ${id}`)}
+const required=['past_exams','timed_simulations','flashcards','pomodoro','error_self_explanation','post_class_spacing','cornell','outlining','mind_maps','visual_mapping','key_words','shared_notebook','focused_study_groups','peer_tutoring','debates','quiz','team_projects','reciprocal_teaching','feynman','mnemonics','analogies','active_reading','memory_palace','subject_interleaving','pbl','flipped_classroom','case_studies','labs','continuous_self_assessment','learning_diary','practical_testing','question_generation','distributed_practice','time_blocking','five_minute_rule','robinson_epl2r','concept_maps','sketchnoting','timelines','dual_coding','chunking','contextual_association','elaborative_interrogation','kanban','microlearning','audiolearning','reverse_engineering','five_whys','gamification','sentence_notes','table_notes','active_recall','leitner','eat_the_frog','two_minute_rule','color_coding','infographics','audio_review','real_projects','self_explanation','spaced_repetition'];
+for(const id of required)if(!ids.has(id))fail(`método do material não virou regra: ${id}`);
+const history=[];for(let i=0;i<8;i++)history.push({studyMethod:'feynman',cdf:'C',right:true});for(let i=0;i<8;i++)history.push({studyMethod:'concept_maps',cdf:'C',right:i<4});const p=M.profile(history);if(!p.validated||p.best?.method?.id!=='feynman')fail('perfil de método não detectou vantagem com amostra mínima');
+const pick=M.recommend({signal:'conceito',history:[],skillKey:'x',escalation:0});if(!pick||!ids.has(pick.id)||pick.masteryCredit!==false)fail('recomendação inválida');
+const app=fs.readFileSync(path.join(root,'app.js'),'utf8'),html=fs.readFileSync(path.join(root,'index.html'),'utf8'),sw=fs.readFileSync(path.join(root,'sw.js'),'utf8');
+for(const t of ['rastroMethodRecommendation','rastroAttachMethod','studyMethod'])if(!app.includes(t))fail(`app sem integração ${t}`);if(!html.includes('learning-methods.js'))fail('index não carrega learning-methods.js');if(!sw.includes("'./learning-methods.js'"))fail('service worker não inclui learning-methods.js');
+if(/data-page=["']methods|ui\.page\s*=\s*["']methods/.test(app+html))fail('métodos viraram nova aba');
+if(errors.length){for(const e of errors)console.error('ERRO:',e);process.exit(1)}console.log(`OK métodos 9.0.11 — ${methods.length} regras explícitas, sem crédito direto de domínio, integração e personalização validadas.`);

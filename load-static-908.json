@@ -1,0 +1,10 @@
+{
+  "requests": 10000,
+  "ok": 10000,
+  "fail": 0,
+  "elapsedMs": 3719,
+  "minLatencyMs": 775,
+  "avgLatencyMs": 1736.7,
+  "maxLatencyMs": 3459,
+  "scope": "harness HTTP local com assets em memória; valida camada estática/processo, não limites reais de Vercel/Supabase"
+}

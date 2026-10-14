@@ -10,6 +10,7 @@ const ctx={console,Buffer,Date,Math,JSON,Uint8Array,WeakMap,Map,Set,Blob:global.
 ctx.window=ctx;ctx.window.ESTUDA_CLOUD={enabled:false};ctx.window.AEDS_CONTENT={loadedQuestions:questions,init:async()=>core,ensureForUser:async()=>{},ensureAll:async()=>{},stats:()=>({loadedQuestions:questions.length}),keys:()=>[],packKeysFor:()=>[],prefetchPack:async()=>true};vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(root,'engine.js'),'utf8'),ctx,{filename:'engine.js'});
 vm.runInContext(fs.readFileSync(path.join(root,'analytics.js'),'utf8'),ctx,{filename:'analytics.js'});
+vm.runInContext(fs.readFileSync(path.join(root,'rastro.js'),'utf8'),ctx,{filename:'rastro.js'});
 let app=fs.readFileSync(path.join(root,'app.js'),'utf8').replace(/\/\/ ---------- startup ----------[\s\S]*$/,'');
 vm.runInContext(app,ctx,{filename:'app.js'});
 ctx.__CORE=core;ctx.__QS=questions;
@@ -27,6 +28,20 @@ const syntheticUsers=[{id:'u1',role:'student'},{id:'u2',role:'student'}],qid=que
 const groups=evalx(`AEDS_ANALYTICS.reviewClusters([{qid:__QID,reason:'errada'},{qid:__QID,reason:'dúvida'}],qById)`);if(groups.length!==1||groups[0].items.length!==2)throw new Error('agrupamento de revisão falhou');
 const strategy=evalx(`AEDS_ANALYTICS.strategyModel([{learningStrategy:'explain_first',right:true},{learningStrategy:'explain_first',right:true},{learningStrategy:'attempt_first',right:false}])`);if(strategy.preferred!=='explain_first')throw new Error('modelo de estratégia não aprendeu preferência sintética');
 const diagnosis=evalx(`selectedErrorDiagnosis(qById('${questions.find(q=>q.editorial?.version==='9.0').id}'),0)`);if(!diagnosis.includes('O que esta escolha sugere')&&!diagnosis.includes('Compare o raciocínio'))throw new Error('diagnóstico por alternativa ausente');
+const areas5=evalx(`areasFor('Inglês',5)`);if(!areas5.includes('Leitura básica')||areas5.includes('total')||areas5.includes('areas'))throw new Error('manifest/UI de áreas ainda usa contrato antigo');
+const searchProbe=evalx(`runSearch('leitura básica')`);if(!searchProbe.some(x=>x.type==='Conteúdo'&&String(x.title).toLowerCase().includes('leitura básica')))throw new Error('busca global não indexa áreas reais do manifest');
 const studentViews=evalx(`({home:home(),learn:learnView(),train:trainView(),exam:(ui.exam=null,examView()),review:(ui.examReview=null,reviewView()),essay:essayView(),performance:performanceView(),favorites:favoritesView(),formulas:formulasView(),program:programView(),science:scienceView(),routine:routineView(),sources:sourcesView(),official:officialView(),settings:settingsView()})`);for(const [k,v] of Object.entries(studentViews))if(typeof v!=='string'||v.length<20)throw new Error('view vazia: '+k);
-evalx(`state.currentUser='admin';normalize()`);const admin=evalx('adminView()');if(!admin.includes('Centro de qualidade')||!admin.includes('Editor editorial')||!admin.includes('Testes com alunos reais'))throw new Error('admin 9.0 incompleto');
-console.log(`OK runtime lógico 9.0 — ${questions.length} questões; sessão ${plan.length}; dia1 ${ex1.questions.length}; dia2 ${ex2.questions.length}; 15 telas + admin + analytics/revisão/diagnóstico OK.`);
+function assertUniqueIds(name,html){const ids=[...String(html).matchAll(/(?:^|\s)id=\"([^\"]+)\"/g)].map(m=>m[1]),seen=new Set();for(const id of ids){if(seen.has(id))throw new Error(`${name}: id DOM duplicado ${id}`);seen.add(id)}}for(const [k,v] of Object.entries(studentViews))assertUniqueIds(k,v);
+let rendered=0;for(const q of questions.filter(q=>q.active!==false)){ctx.__RQ=q;const html=evalx(`questionView(__RQ)`);if(typeof html!=='string'||html.length<40)throw new Error(`questão ${q.id} não renderizou`);if(q.questionType==='multiple_choice'){const count=(html.match(/data-opt=\"/g)||[]).length;if(count!==(q.options||[]).length)throw new Error(`questão ${q.id}: ${count}/${(q.options||[]).length} alternativas renderizadas`)}rendered++}
+
+
+// Rastro 2.0 / 9.0.8: a mesma habilidade deve produzir intervenções diferentes conforme a evidência.
+const rq=questions.find(q=>q.active!==false&&q.questionType==='multiple_choice'&&q.options?.length>=2);ctx.__RQ=rq;
+evalx(`state.rastro.aluno1={};state.rastroPending.aluno1=null;ui.question=__RQ;ui.corrected=true;ui.rastroLast=null;`);
+const rr1=evalx(`AEDS_RASTRO.classify({q:__RQ,rec:{right:false,cdf:'C',cid:null},context:{}}).signal`);if(rr1!=='conceito')throw new Error('Rastro não reconheceu erro confiante');
+const rr2=evalx(`AEDS_RASTRO.classify({q:__RQ,rec:{right:false,cdf:'D',cid:'Interpretacao'},context:{}}).signal`);if(rr2!=='representacao')throw new Error('Rastro não priorizou interpretação');
+const rr3=evalx(`AEDS_RASTRO.classify({q:{...__RQ,difficulty:'difícil'},rec:{right:false,cdf:'D'},context:{priorEasyCorrect:2}}).signal`);if(rr3!=='transferencia')throw new Error('Rastro não detectou falha de transferência');
+if(/data-page=[\"']rastro[\"']/.test(app))throw new Error('Rastro virou página em vez de tecnologia transversal');
+
+evalx(`state.currentUser='admin';normalize()`);const admin=evalx('adminView()');if(!admin.includes('Centro de qualidade')||!admin.includes('Editor editorial')||!admin.includes('Testes com alunos reais'))throw new Error('admin 9.0 incompleto');assertUniqueIds('admin',admin);
+console.log(`OK runtime lógico 9.0.4 — ${questions.length} armazenadas; ${rendered} questões ativas renderizadas; sessão ${plan.length}; dia1 ${ex1.questions.length}; dia2 ${ex2.questions.length}; 15 telas + admin + busca/manifest + analytics/revisão/diagnóstico OK.`);

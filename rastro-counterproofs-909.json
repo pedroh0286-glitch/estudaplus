@@ -1,0 +1,5350 @@
+[
+  {
+    "id": "R909-ARTES-10-F1889056",
+    "subject": "Artes",
+    "grade": 10,
+    "area": "Música",
+    "skill": "Música",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Em uma canção, a bateria repete um padrão regular enquanto a voz executa a sequência principal de notas. O padrão da bateria está ligado principalmente a qual elemento musical?",
+    "hint": "Identifique o elemento musical efetivamente descrito.",
+    "options": [
+      "Melodia",
+      "Perspectiva",
+      "Proporção",
+      "Ritmo"
+    ],
+    "correctIndex": 3,
+    "correctText": "Ritmo",
+    "explanation": "Ritmo organiza durações, pulsações e acentos no tempo; a sequência de alturas cantada está mais ligada à melodia.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36696,
+    "family": "rastro909:f1889056a02838ad",
+    "rootFamily": "rastro909:f1889056a02838ad",
+    "template": "rastro909:transfer:8723e8fe034c",
+    "patternFamily": "rastro909:transfer:8723e8fe034c",
+    "solutionSteps": [
+      "Ritmo organiza durações, pulsações e acentos no tempo; a sequência de alturas cantada está mais ligada à melodia."
+    ],
+    "whyCorrect": "Ritmo organiza durações, pulsações e acentos no tempo; a sequência de alturas cantada está mais ligada à melodia.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ARTES-10-DFE53D21",
+    "subject": "Artes",
+    "grade": 10,
+    "area": "Patrimônio cultural",
+    "skill": "Patrimônio cultural",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Uma comunidade mantém uma festa transmitida entre gerações, com músicas, saberes e rituais próprios. Mesmo sem ser um edifício, ela pode ser patrimônio porque:",
+    "hint": "Pense em patrimônio como memória, prática social e preservação de significado.",
+    "options": [
+      "toda prática precisa permanecer sem mudanças",
+      "práticas e saberes também podem constituir patrimônio cultural imaterial",
+      "somente objetos antigos podem ser patrimônio",
+      "patrimônio depende de valor comercial"
+    ],
+    "correctIndex": 1,
+    "correctText": "práticas e saberes também podem constituir patrimônio cultural imaterial",
+    "explanation": "Patrimônio cultural inclui bens materiais e manifestações imateriais, como celebrações, ofícios e saberes.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36697,
+    "family": "rastro909:dfe53d2120f592bd",
+    "rootFamily": "rastro909:dfe53d2120f592bd",
+    "template": "rastro909:transfer:0e1689f9df6c",
+    "patternFamily": "rastro909:transfer:0e1689f9df6c",
+    "solutionSteps": [
+      "Patrimônio cultural inclui bens materiais e manifestações imateriais, como celebrações, ofícios e saberes."
+    ],
+    "whyCorrect": "Patrimônio cultural inclui bens materiais e manifestações imateriais, como celebrações, ofícios e saberes.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ARTES-11-1713A653",
+    "subject": "Artes",
+    "grade": 11,
+    "area": "Música",
+    "skill": "Música",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Uma mesma melodia é apresentada primeiro por violão solo e depois por um conjunto de cordas, sem alterar a sequência principal de notas. O que mudou de forma mais evidente?",
+    "hint": "Identifique o elemento musical efetivamente descrito.",
+    "options": [
+      "A tonalidade necessariamente",
+      "Timbre e arranjo",
+      "A letra obrigatoriamente",
+      "A duração total obrigatoriamente"
+    ],
+    "correctIndex": 1,
+    "correctText": "Timbre e arranjo",
+    "explanation": "Mudar instrumentos altera o timbre e o arranjo, mesmo que a linha melódica principal permaneça reconhecível.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36698,
+    "family": "rastro909:1713a653f5407382",
+    "rootFamily": "rastro909:1713a653f5407382",
+    "template": "rastro909:transfer:3e8b79f2ab32",
+    "patternFamily": "rastro909:transfer:3e8b79f2ab32",
+    "solutionSteps": [
+      "Mudar instrumentos altera o timbre e o arranjo, mesmo que a linha melódica principal permaneça reconhecível."
+    ],
+    "whyCorrect": "Mudar instrumentos altera o timbre e o arranjo, mesmo que a linha melódica principal permaneça reconhecível.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ARTES-11-C433752F",
+    "subject": "Artes",
+    "grade": 11,
+    "area": "Patrimônio cultural",
+    "skill": "Patrimônio cultural",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Ao restaurar um prédio histórico, qual decisão é mais coerente com preservação patrimonial?",
+    "hint": "Pense em patrimônio como memória, prática social e preservação de significado.",
+    "options": [
+      "documentar intervenções e preservar características significativas sem apagar evidências históricas",
+      "substituir tudo por materiais atuais para parecer novo",
+      "impedir qualquer uso social do prédio",
+      "demolir partes antigas sempre que forem menos eficientes"
+    ],
+    "correctIndex": 0,
+    "correctText": "documentar intervenções e preservar características significativas sem apagar evidências históricas",
+    "explanation": "Preservação busca manter valores históricos e culturais, com intervenções justificadas e documentadas, não transformar o bem em réplica nova.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36699,
+    "family": "rastro909:c433752fcb400565",
+    "rootFamily": "rastro909:c433752fcb400565",
+    "template": "rastro909:transfer:c787a359b618",
+    "patternFamily": "rastro909:transfer:c787a359b618",
+    "solutionSteps": [
+      "Preservação busca manter valores históricos e culturais, com intervenções justificadas e documentadas, não transformar o bem em réplica nova."
+    ],
+    "whyCorrect": "Preservação busca manter valores históricos e culturais, com intervenções justificadas e documentadas, não transformar o bem em réplica nova.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ARTES-12-2F64A0A3",
+    "subject": "Artes",
+    "grade": 12,
+    "area": "Música",
+    "skill": "Música",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Uma obra musical contemporânea combina ritmos de uma tradição local com recursos eletrônicos. Qual análise é mais adequada?",
+    "hint": "Identifique o elemento musical efetivamente descrito.",
+    "options": [
+      "Misturar referências impede interpretação estética",
+      "A obra pode articular referências culturais e tecnologias sem que uma anule a outra",
+      "O uso eletrônico elimina qualquer identidade cultural",
+      "Só música sem tecnologia pode representar cultura"
+    ],
+    "correctIndex": 1,
+    "correctText": "A obra pode articular referências culturais e tecnologias sem que uma anule a outra",
+    "explanation": "Produções musicais podem dialogar com tradições e tecnologias simultaneamente; a análise deve observar como esses elementos são organizados.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36700,
+    "family": "rastro909:2f64a0a3364af9a1",
+    "rootFamily": "rastro909:2f64a0a3364af9a1",
+    "template": "rastro909:transfer:301eb721c57a",
+    "patternFamily": "rastro909:transfer:301eb721c57a",
+    "solutionSteps": [
+      "Produções musicais podem dialogar com tradições e tecnologias simultaneamente; a análise deve observar como esses elementos são organizados."
+    ],
+    "whyCorrect": "Produções musicais podem dialogar com tradições e tecnologias simultaneamente; a análise deve observar como esses elementos são organizados.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ARTES-12-76A700F0",
+    "subject": "Artes",
+    "grade": 12,
+    "area": "Patrimônio cultural",
+    "skill": "Patrimônio cultural",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Uma manifestação cultural tradicional muda alguns elementos ao longo das gerações. Isso significa necessariamente que deixou de ser patrimônio?",
+    "hint": "Pense em patrimônio como memória, prática social e preservação de significado.",
+    "options": [
+      "Sim; qualquer mudança elimina valor cultural",
+      "Não; porque patrimônio não possui relação com comunidades",
+      "Não; práticas culturais vivas podem se transformar mantendo vínculos de memória e identidade",
+      "Sim; patrimônio imaterial deve ser idêntico para sempre"
+    ],
+    "correctIndex": 2,
+    "correctText": "Não; práticas culturais vivas podem se transformar mantendo vínculos de memória e identidade",
+    "explanation": "Patrimônio imaterial é vivo e pode sofrer transformações; o vínculo social, a transmissão e os sentidos compartilhados são centrais.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36701,
+    "family": "rastro909:76a700f0932f7eae",
+    "rootFamily": "rastro909:76a700f0932f7eae",
+    "template": "rastro909:transfer:8a12329efd14",
+    "patternFamily": "rastro909:transfer:8a12329efd14",
+    "solutionSteps": [
+      "Patrimônio imaterial é vivo e pode sofrer transformações; o vínculo social, a transmissão e os sentidos compartilhados são centrais."
+    ],
+    "whyCorrect": "Patrimônio imaterial é vivo e pode sofrer transformações; o vínculo social, a transmissão e os sentidos compartilhados são centrais.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-EDUCA-10-4255F64E",
+    "subject": "Educação Física",
+    "grade": 10,
+    "area": "Ética esportiva",
+    "skill": "Ética esportiva",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Durante uma partida escolar, um jogador percebe que a arbitragem marcou ponto para sua equipe por engano e informa o erro. Essa atitude exemplifica:",
+    "hint": "Avalie respeito às regras, integridade, segurança e inclusão.",
+    "options": [
+      "doping estratégico",
+      "especialização precoce",
+      "fair play e ética esportiva",
+      "vantagem antidesportiva"
+    ],
+    "correctIndex": 2,
+    "correctText": "fair play e ética esportiva",
+    "explanation": "Fair play envolve respeito às regras, adversários e integridade da competição, mesmo quando agir eticamente pode retirar uma vantagem.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36702,
+    "family": "rastro909:4255f64eac3d9360",
+    "rootFamily": "rastro909:4255f64eac3d9360",
+    "template": "rastro909:transfer:042d0e0f41c4",
+    "patternFamily": "rastro909:transfer:042d0e0f41c4",
+    "solutionSteps": [
+      "Fair play envolve respeito às regras, adversários e integridade da competição, mesmo quando agir eticamente pode retirar uma vantagem."
+    ],
+    "whyCorrect": "Fair play envolve respeito às regras, adversários e integridade da competição, mesmo quando agir eticamente pode retirar uma vantagem.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-EDUCA-11-7FADBE3C",
+    "subject": "Educação Física",
+    "grade": 11,
+    "area": "Ética esportiva",
+    "skill": "Ética esportiva",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Um atleta usa substância proibida para aumentar artificialmente o desempenho e esconder o uso no exame. Por que isso é um problema ético além de regulamentar?",
+    "hint": "Avalie respeito às regras, integridade, segurança e inclusão.",
+    "options": [
+      "porque resultados esportivos não dependem de regras",
+      "quebra a equidade competitiva e pode colocar a saúde em risco",
+      "porque toda tecnologia esportiva é proibida",
+      "porque treinamento intenso é equivalente a doping"
+    ],
+    "correctIndex": 1,
+    "correctText": "quebra a equidade competitiva e pode colocar a saúde em risco",
+    "explanation": "Doping viola regras de igualdade competitiva e pode gerar riscos à saúde; ética esportiva não se resume a vencer.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36703,
+    "family": "rastro909:7fadbe3c6b278b79",
+    "rootFamily": "rastro909:7fadbe3c6b278b79",
+    "template": "rastro909:transfer:55c96fc97d06",
+    "patternFamily": "rastro909:transfer:55c96fc97d06",
+    "solutionSteps": [
+      "Doping viola regras de igualdade competitiva e pode gerar riscos à saúde; ética esportiva não se resume a vencer."
+    ],
+    "whyCorrect": "Doping viola regras de igualdade competitiva e pode gerar riscos à saúde; ética esportiva não se resume a vencer.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-EDUCA-12-C1D969B7",
+    "subject": "Educação Física",
+    "grade": 12,
+    "area": "Ética esportiva",
+    "skill": "Ética esportiva",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Uma competição escolar adapta regras e equipamentos para permitir participação de estudante com deficiência, mantendo o desafio esportivo. A medida é coerente com:",
+    "hint": "Avalie respeito às regras, integridade, segurança e inclusão.",
+    "options": [
+      "privilégio indevido, pois toda adaptação é injusta",
+      "exclusão, pois categorias nunca podem ser adaptadas",
+      "neutralidade, pois acessibilidade não faz parte da ética esportiva",
+      "equidade e inclusão, pois remove barreiras sem exigir experiências idênticas"
+    ],
+    "correctIndex": 3,
+    "correctText": "equidade e inclusão, pois remove barreiras sem exigir experiências idênticas",
+    "explanation": "Equidade pode exigir adaptações para que participantes tenham condições reais de participação; tratar todos de modo idêntico nem sempre remove barreiras.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36704,
+    "family": "rastro909:c1d969b784b8e7d5",
+    "rootFamily": "rastro909:c1d969b784b8e7d5",
+    "template": "rastro909:transfer:2cd23b77f064",
+    "patternFamily": "rastro909:transfer:2cd23b77f064",
+    "solutionSteps": [
+      "Equidade pode exigir adaptações para que participantes tenham condições reais de participação; tratar todos de modo idêntico nem sempre remove barreiras."
+    ],
+    "whyCorrect": "Equidade pode exigir adaptações para que participantes tenham condições reais de participação; tratar todos de modo idêntico nem sempre remove barreiras.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ESPAN-10-1FC94BF2",
+    "subject": "Espanhol",
+    "grade": 10,
+    "area": "Comprensión lectora",
+    "skill": "Comprensión lectora",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Lee: “Lucía salió temprano porque el autobús suele tardar. Sin embargo, hoy llegó antes de lo previsto y pudo desayunar cerca de la escuela.” ¿Qué se puede concluir?",
+    "hint": "Observe la relación entre “porque” y “sin embargo”.",
+    "options": [
+      "Lucía no tuvo tiempo para desayunar",
+      "Lucía había previsto un posible retraso, pero el trayecto fue más rápido de lo esperado",
+      "Lucía perdió el autobús",
+      "Lucía llegó tarde a la escuela"
+    ],
+    "correctIndex": 1,
+    "correctText": "Lucía había previsto un posible retraso, pero el trayecto fue más rápido de lo esperado",
+    "explanation": "El conector “sin embargo” contrapone la expectativa de demora con la llegada anticipada.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36705,
+    "family": "rastro909:1fc94bf26ab9160a",
+    "rootFamily": "rastro909:1fc94bf26ab9160a",
+    "template": "rastro909:transfer:3bf0b30a54fa",
+    "patternFamily": "rastro909:transfer:3bf0b30a54fa",
+    "solutionSteps": [
+      "El conector “sin embargo” contrapone la expectativa de demora con la llegada anticipada."
+    ],
+    "whyCorrect": "El conector “sin embargo” contrapone la expectativa de demora con la llegada anticipada.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ESPAN-11-597CE932",
+    "subject": "Espanhol",
+    "grade": 11,
+    "area": "Comprensión lectora",
+    "skill": "Comprensión lectora",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Lee: “El museo cerraba a las seis. Marta llegó a las cinco y cuarenta, así que decidió visitar primero la sala que más le interesaba.” ¿Por qué Marta cambió el orden de la visita?",
+    "hint": "Relaciona los horarios con la decisión de Marta.",
+    "options": [
+      "Porque el museo abrió tarde",
+      "Porque no quería entrar al museo",
+      "Porque la sala estaba cerrada todo el día",
+      "Porque tenía poco tiempo antes del cierre"
+    ],
+    "correctIndex": 3,
+    "correctText": "Porque tenía poco tiempo antes del cierre",
+    "explanation": "La hora de llegada y el cierre indican una restricción de tiempo; por eso priorizó la sala de mayor interés.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36706,
+    "family": "rastro909:597ce932a52ef1a1",
+    "rootFamily": "rastro909:597ce932a52ef1a1",
+    "template": "rastro909:transfer:b0db24e17530",
+    "patternFamily": "rastro909:transfer:b0db24e17530",
+    "solutionSteps": [
+      "La hora de llegada y el cierre indican una restricción de tiempo; por eso priorizó la sala de mayor interés."
+    ],
+    "whyCorrect": "La hora de llegada y el cierre indican una restricción de tiempo; por eso priorizó la sala de mayor interés.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-GEOGR-10-14BC3E37",
+    "subject": "Geografia",
+    "grade": 10,
+    "area": "Cartografia",
+    "skill": "Cartografia",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Em um mapa de escala 1:100 000, dois pontos estão separados por 4 cm. Qual distância real eles representam?",
+    "hint": "Converta 100 000 cm para quilômetros.",
+    "options": [
+      "4 km",
+      "400 m",
+      "40 km",
+      "400 km"
+    ],
+    "correctIndex": 0,
+    "correctText": "4 km",
+    "explanation": "1 cm representa 100 000 cm, isto é, 1 km. Logo 4 cm representam 4 km.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36707,
+    "family": "rastro909:14bc3e3761fb5a8e",
+    "rootFamily": "rastro909:14bc3e3761fb5a8e",
+    "template": "rastro909:transfer:c79ea6700215",
+    "patternFamily": "rastro909:transfer:c79ea6700215",
+    "solutionSteps": [
+      "1 cm -> 1 km",
+      "4 cm -> 4 km."
+    ],
+    "whyCorrect": "1 cm representa 100 000 cm, isto é, 1 km. Logo 4 cm representam 4 km.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-GEOGR-10-FD0A5BCE",
+    "subject": "Geografia",
+    "grade": 10,
+    "area": "Climatologia",
+    "skill": "Climatologia",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "“Hoje choveu 40 mm e a temperatura caiu rapidamente.” Essa frase descreve principalmente:",
+    "hint": "Diferencie evento de hoje de padrão de décadas.",
+    "options": [
+      "clima, pois qualquer chuva define o clima",
+      "latitude, pois descreve posição geográfica",
+      "vegetação, pois temperatura não faz parte da atmosfera",
+      "tempo atmosférico, pois trata de condições de curto prazo"
+    ],
+    "correctIndex": 3,
+    "correctText": "tempo atmosférico, pois trata de condições de curto prazo",
+    "explanation": "Tempo atmosférico refere-se às condições observadas em curto prazo; clima resulta de padrões analisados por períodos longos.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36708,
+    "family": "rastro909:fd0a5bce4e4e4d7b",
+    "rootFamily": "rastro909:fd0a5bce4e4e4d7b",
+    "template": "rastro909:transfer:c09a1e3943a2",
+    "patternFamily": "rastro909:transfer:c09a1e3943a2",
+    "solutionSteps": [
+      "Tempo atmosférico refere-se às condições observadas em curto prazo; clima resulta de padrões analisados por períodos longos."
+    ],
+    "whyCorrect": "Tempo atmosférico refere-se às condições observadas em curto prazo; clima resulta de padrões analisados por períodos longos.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-GEOGR-11-C6DE2779",
+    "subject": "Geografia",
+    "grade": 11,
+    "area": "Cartografia",
+    "skill": "Cartografia",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Dois mapas mostram a mesma cidade: um em escala 1:25 000 e outro em 1:250 000. Qual tende a mostrar mais detalhes locais?",
+    "hint": "Compare quanto território cada centímetro representa.",
+    "options": [
+      "Os dois necessariamente mostram os mesmos detalhes",
+      "Nenhum, pois escala não afeta detalhamento",
+      "O de 1:25 000, por ter escala maior",
+      "O de 1:250 000, porque o denominador é maior"
+    ],
+    "correctIndex": 2,
+    "correctText": "O de 1:25 000, por ter escala maior",
+    "explanation": "Escala 1:25 000 representa uma área menor com maior detalhamento; quanto menor o denominador, maior a escala cartográfica.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36709,
+    "family": "rastro909:c6de277935fc548f",
+    "rootFamily": "rastro909:c6de277935fc548f",
+    "template": "rastro909:transfer:29ec523ef108",
+    "patternFamily": "rastro909:transfer:29ec523ef108",
+    "solutionSteps": [
+      "Escala 1:25 000 representa uma área menor com maior detalhamento; quanto menor o denominador, maior a escala cartográfica."
+    ],
+    "whyCorrect": "Escala 1:25 000 representa uma área menor com maior detalhamento; quanto menor o denominador, maior a escala cartográfica.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-GEOGR-11-28B0500F",
+    "subject": "Geografia",
+    "grade": 11,
+    "area": "Climatologia",
+    "skill": "Climatologia",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Uma área central muito construída apresenta temperaturas noturnas maiores que bairros periféricos vegetados. Qual processo urbano ajuda a explicar isso?",
+    "hint": "Observe materiais urbanos e cobertura vegetal.",
+    "options": [
+      "ilha de calor urbana",
+      "maritimidade obrigatória",
+      "inversão do campo magnético",
+      "erosão glacial"
+    ],
+    "correctIndex": 0,
+    "correctText": "ilha de calor urbana",
+    "explanation": "Superfícies impermeáveis e construções absorvem e liberam calor, enquanto menor vegetação reduz resfriamento por evapotranspiração, favorecendo ilhas de calor.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36710,
+    "family": "rastro909:28b0500f1b793b6d",
+    "rootFamily": "rastro909:28b0500f1b793b6d",
+    "template": "rastro909:transfer:a9534fde27c3",
+    "patternFamily": "rastro909:transfer:a9534fde27c3",
+    "solutionSteps": [
+      "Superfícies impermeáveis e construções absorvem e liberam calor, enquanto menor vegetação reduz resfriamento por evapotranspiração, favorecendo ilhas de calor."
+    ],
+    "whyCorrect": "Superfícies impermeáveis e construções absorvem e liberam calor, enquanto menor vegetação reduz resfriamento por evapotranspiração, favorecendo ilhas de calor.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-GEOGR-12-5BD5E5A8",
+    "subject": "Geografia",
+    "grade": 12,
+    "area": "Demografia",
+    "skill": "Demografia",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Uma população passa a ter baixa natalidade e maior proporção de idosos. Qual desafio tende a ganhar importância?",
+    "hint": "Relacione estrutura etária com políticas públicas.",
+    "options": [
+      "fim de qualquer migração",
+      "adaptação de previdência, saúde e cuidados de longa duração",
+      "expansão obrigatória de creches por explosão de nascimentos",
+      "desaparecimento imediato da população economicamente ativa"
+    ],
+    "correctIndex": 1,
+    "correctText": "adaptação de previdência, saúde e cuidados de longa duração",
+    "explanation": "O envelhecimento aumenta a demanda por saúde e cuidados e altera a relação entre grupos etários, exigindo planejamento social e econômico.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36711,
+    "family": "rastro909:5bd5e5a840d13d2a",
+    "rootFamily": "rastro909:5bd5e5a840d13d2a",
+    "template": "rastro909:transfer:c5e47feecb27",
+    "patternFamily": "rastro909:transfer:c5e47feecb27",
+    "solutionSteps": [
+      "O envelhecimento aumenta a demanda por saúde e cuidados e altera a relação entre grupos etários, exigindo planejamento social e econômico."
+    ],
+    "whyCorrect": "O envelhecimento aumenta a demanda por saúde e cuidados e altera a relação entre grupos etários, exigindo planejamento social e econômico.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-GEOGR-12-1260311D",
+    "subject": "Geografia",
+    "grade": 12,
+    "area": "Espaço agrário",
+    "skill": "Espaço agrário",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Duas regiões produzem a mesma quantidade agrícola. Na região A, poucas propriedades concentram grande parte das terras; na B, a terra é distribuída entre muitas propriedades. Qual conceito diferencia principalmente essas situações?",
+    "hint": "A questão trata de distribuição da propriedade da terra.",
+    "options": [
+      "fuso horário rural",
+      "densidade atmosférica",
+      "estrutura fundiária",
+      "latitude agrícola"
+    ],
+    "correctIndex": 2,
+    "correctText": "estrutura fundiária",
+    "explanation": "Estrutura fundiária descreve como a terra rural está distribuída e organizada entre propriedades e proprietários.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36712,
+    "family": "rastro909:1260311d48a02996",
+    "rootFamily": "rastro909:1260311d48a02996",
+    "template": "rastro909:transfer:83007bc3e47b",
+    "patternFamily": "rastro909:transfer:83007bc3e47b",
+    "solutionSteps": [
+      "Estrutura fundiária descreve como a terra rural está distribuída e organizada entre propriedades e proprietários."
+    ],
+    "whyCorrect": "Estrutura fundiária descreve como a terra rural está distribuída e organizada entre propriedades e proprietários.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-GEOGR-12-EEAB2B52",
+    "subject": "Geografia",
+    "grade": 12,
+    "area": "Urbanização",
+    "skill": "Urbanização",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Duas cidades crescem até suas áreas construídas se encontrarem fisicamente, formando uma mancha urbana contínua. Esse processo é chamado de:",
+    "hint": "Observe a união física de áreas urbanizadas.",
+    "options": [
+      "verticalização",
+      "intemperismo",
+      "conurbação",
+      "êxodo rural"
+    ],
+    "correctIndex": 2,
+    "correctText": "conurbação",
+    "explanation": "Conurbação ocorre quando manchas urbanas de municípios distintos se unem fisicamente pelo crescimento urbano.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36713,
+    "family": "rastro909:eeab2b52d28a0854",
+    "rootFamily": "rastro909:eeab2b52d28a0854",
+    "template": "rastro909:transfer:44b8fa51b49f",
+    "patternFamily": "rastro909:transfer:44b8fa51b49f",
+    "solutionSteps": [
+      "Conurbação ocorre quando manchas urbanas de municípios distintos se unem fisicamente pelo crescimento urbano."
+    ],
+    "whyCorrect": "Conurbação ocorre quando manchas urbanas de municípios distintos se unem fisicamente pelo crescimento urbano.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-HISTO-12-B8222A9C",
+    "subject": "História",
+    "grade": 12,
+    "area": "Ditadura e redemocratização",
+    "skill": "Ditadura e redemocratização",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "No processo brasileiro de redemocratização, qual evento simboliza a retomada de uma ordem constitucional democrática após o regime militar?",
+    "hint": "Localize cronologicamente os eventos e identifique qual pertence à redemocratização.",
+    "options": [
+      "promulgação da Constituição de 1988",
+      "edição do AI-5 em 1968",
+      "criação do Estado Novo em 1937",
+      "Revolução de 1930"
+    ],
+    "correctIndex": 0,
+    "correctText": "promulgação da Constituição de 1988",
+    "explanation": "A Constituição de 1988 consolidou direitos e instituições democráticas no período posterior ao regime militar.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36714,
+    "family": "rastro909:b8222a9cedc678ef",
+    "rootFamily": "rastro909:b8222a9cedc678ef",
+    "template": "rastro909:transfer:710c2d5031e7",
+    "patternFamily": "rastro909:transfer:710c2d5031e7",
+    "solutionSteps": [
+      "A Constituição de 1988 consolidou direitos e instituições democráticas no período posterior ao regime militar."
+    ],
+    "whyCorrect": "A Constituição de 1988 consolidou direitos e instituições democráticas no período posterior ao regime militar.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-HISTO-12-08DF9D9F",
+    "subject": "História",
+    "grade": 12,
+    "area": "Era Vargas",
+    "skill": "Era Vargas",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Qual característica ajuda a compreender o Estado Novo (1937–1945) no governo Vargas?",
+    "hint": "Diferencie Estado Novo das fases constitucionais do período Vargas.",
+    "options": [
+      "centralização autoritária do poder e restrição de liberdades políticas",
+      "federalismo radical com autonomia irrestrita dos estados",
+      "eleições presidenciais diretas anuais",
+      "ausência de intervenção do Estado na economia e no trabalho"
+    ],
+    "correctIndex": 0,
+    "correctText": "centralização autoritária do poder e restrição de liberdades políticas",
+    "explanation": "O Estado Novo foi uma ditadura marcada por centralização política, censura e controle institucional, embora também tenha ampliado políticas trabalhistas e intervenção estatal.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36715,
+    "family": "rastro909:08df9d9fc48a3f45",
+    "rootFamily": "rastro909:08df9d9fc48a3f45",
+    "template": "rastro909:transfer:365296f44b84",
+    "patternFamily": "rastro909:transfer:365296f44b84",
+    "solutionSteps": [
+      "O Estado Novo foi uma ditadura marcada por centralização política, censura e controle institucional, embora também tenha ampliado políticas trabalhistas e intervenção estatal."
+    ],
+    "whyCorrect": "O Estado Novo foi uma ditadura marcada por centralização política, censura e controle institucional, embora também tenha ampliado políticas trabalhistas e intervenção estatal.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-HISTO-12-C413F4E7",
+    "subject": "História",
+    "grade": 12,
+    "area": "Revoluções burguesas",
+    "skill": "Revoluções burguesas",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "A Declaração dos Direitos do Homem e do Cidadão, de 1789, está ligada a qual transformação política da Revolução Francesa?",
+    "hint": "Relacione o documento à crítica aos privilégios do Antigo Regime.",
+    "options": [
+      "afirmação de direitos e igualdade jurídica contra privilégios de ordem",
+      "restauração dos privilégios feudais como princípio universal",
+      "defesa do absolutismo hereditário",
+      "proibição de qualquer ideia de cidadania"
+    ],
+    "correctIndex": 0,
+    "correctText": "afirmação de direitos e igualdade jurídica contra privilégios de ordem",
+    "explanation": "O documento expressa princípios de direitos, cidadania e igualdade perante a lei, contrapondo-se a privilégios do Antigo Regime.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36716,
+    "family": "rastro909:c413f4e7dd526f52",
+    "rootFamily": "rastro909:c413f4e7dd526f52",
+    "template": "rastro909:transfer:d07694b57651",
+    "patternFamily": "rastro909:transfer:d07694b57651",
+    "solutionSteps": [
+      "O documento expressa princípios de direitos, cidadania e igualdade perante a lei, contrapondo-se a privilégios do Antigo Regime."
+    ],
+    "whyCorrect": "O documento expressa princípios de direitos, cidadania e igualdade perante a lei, contrapondo-se a privilégios do Antigo Regime.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-INGLE-10-1409D5A5",
+    "subject": "Inglês",
+    "grade": 10,
+    "area": "Pronouns and reference",
+    "skill": "Pronouns and reference",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Read: “The students finished the project, and they presented it on Friday.” What does “it” refer to?",
+    "hint": "Look for a singular noun that can be presented.",
+    "options": [
+      "the project",
+      "the students",
+      "Friday",
+      "the presentation room"
+    ],
+    "correctIndex": 0,
+    "correctText": "the project",
+    "explanation": "The singular object pronoun “it” refers to the previously mentioned singular noun “the project”.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36717,
+    "family": "rastro909:1409d5a590c973aa",
+    "rootFamily": "rastro909:1409d5a590c973aa",
+    "template": "rastro909:transfer:e357b27dcf71",
+    "patternFamily": "rastro909:transfer:e357b27dcf71",
+    "solutionSteps": [
+      "The singular object pronoun “it” refers to the previously mentioned singular noun “the project”."
+    ],
+    "whyCorrect": "The singular object pronoun “it” refers to the previously mentioned singular noun “the project”.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-INGLE-11-6192C28B",
+    "subject": "Inglês",
+    "grade": 11,
+    "area": "Pronouns and reference",
+    "skill": "Pronouns and reference",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Read: “Maria called Ana after she arrived at the station.” The pronoun “she” is potentially ambiguous because:",
+    "hint": "Check which earlier nouns match the pronoun grammatically.",
+    "options": [
+      "it can only refer to the station",
+      "English pronouns never refer to people",
+      "“she” must refer to both people at the same time",
+      "it could refer to Maria or Ana without more context"
+    ],
+    "correctIndex": 3,
+    "correctText": "it could refer to Maria or Ana without more context",
+    "explanation": "Both Maria and Ana are singular female antecedents, so the sentence needs more context to identify the intended referent.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36718,
+    "family": "rastro909:6192c28b8bfc30f3",
+    "rootFamily": "rastro909:6192c28b8bfc30f3",
+    "template": "rastro909:transfer:f39cfbc0cdcc",
+    "patternFamily": "rastro909:transfer:f39cfbc0cdcc",
+    "solutionSteps": [
+      "Both Maria and Ana are singular female antecedents, so the sentence needs more context to identify the intended referent."
+    ],
+    "whyCorrect": "Both Maria and Ana are singular female antecedents, so the sentence needs more context to identify the intended referent.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-INGLE-12-96710C4A",
+    "subject": "Inglês",
+    "grade": 12,
+    "area": "Vocabulary in context",
+    "skill": "Vocabulary in context",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Read: “The new policy aims to curb unnecessary waste in public buildings.” In this context, “curb” most nearly means:",
+    "hint": "Use the purpose of the policy to infer the word.",
+    "options": [
+      "measure exactly",
+      "ignore",
+      "reduce or control",
+      "decorate"
+    ],
+    "correctIndex": 2,
+    "correctText": "reduce or control",
+    "explanation": "In context, the policy seeks to limit unnecessary waste; “curb” means restrain, reduce, or control.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36719,
+    "family": "rastro909:96710c4ad79b20f5",
+    "rootFamily": "rastro909:96710c4ad79b20f5",
+    "template": "rastro909:transfer:6945a03bb38a",
+    "patternFamily": "rastro909:transfer:6945a03bb38a",
+    "solutionSteps": [
+      "In context, the policy seeks to limit unnecessary waste; “curb” means restrain, reduce, or control."
+    ],
+    "whyCorrect": "In context, the policy seeks to limit unnecessary waste; “curb” means restrain, reduce, or control.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-10-31CBFDF8",
+    "subject": "Matemática",
+    "grade": 10,
+    "area": "Dados e incerteza",
+    "skill": "Estatística",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Um conjunto de dados tem média 20. Ao acrescentar um valor muito maior que os demais, qual efeito é mais provável?",
+    "hint": "Pense em como um valor extremo entra na soma usada pela média.",
+    "options": [
+      "A média obrigatoriamente diminui",
+      "A mediana sempre dobra",
+      "Nada muda porque a média é fixa",
+      "A média aumenta e pode ficar menos representativa do centro típico"
+    ],
+    "correctIndex": 3,
+    "correctText": "A média aumenta e pode ficar menos representativa do centro típico",
+    "explanation": "A média utiliza todos os valores e é sensível a extremos. Um valor muito alto puxa a média para cima.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36720,
+    "family": "rastro909:31cbfdf8528db126",
+    "rootFamily": "rastro909:31cbfdf8528db126",
+    "template": "rastro909:transfer:6215eaed8df6",
+    "patternFamily": "rastro909:transfer:6215eaed8df6",
+    "solutionSteps": [
+      "A média utiliza todos os valores e é sensível a extremos. Um valor muito alto puxa a média para cima."
+    ],
+    "whyCorrect": "A média utiliza todos os valores e é sensível a extremos. Um valor muito alto puxa a média para cima.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-10-92973C6C",
+    "subject": "Matemática",
+    "grade": 10,
+    "area": "Dados e incerteza",
+    "skill": "Média, mediana e moda",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "As notas 4, 6, 6, 8 e 11 têm qual mediana e qual moda?",
+    "hint": "Mediana é posição central; moda é frequência maior.",
+    "options": [
+      "Mediana 6 e moda 11",
+      "Mediana 8 e moda 6",
+      "Mediana 6 e moda 6",
+      "Mediana 7 e moda 6"
+    ],
+    "correctIndex": 2,
+    "correctText": "Mediana 6 e moda 6",
+    "explanation": "A lista já está ordenada: o valor central é 6. O valor que mais se repete também é 6.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36721,
+    "family": "rastro909:92973c6c4c54657a",
+    "rootFamily": "rastro909:92973c6c4c54657a",
+    "template": "rastro909:transfer:e7bd47be2a58",
+    "patternFamily": "rastro909:transfer:e7bd47be2a58",
+    "solutionSteps": [
+      "A lista já está ordenada: o valor central é 6. O valor que mais se repete também é 6."
+    ],
+    "whyCorrect": "A lista já está ordenada: o valor central é 6. O valor que mais se repete também é 6.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-10-1A44DA12",
+    "subject": "Matemática",
+    "grade": 10,
+    "area": "Funções e modelagem",
+    "skill": "Conjuntos e números reais",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Qual número é irracional?",
+    "hint": "Procure o número que não possui representação fracionária exata.",
+    "options": [
+      "0,25",
+      "7/8",
+      "√2",
+      "-3"
+    ],
+    "correctIndex": 2,
+    "correctText": "√2",
+    "explanation": "√2 não pode ser escrito como razão de dois inteiros. Os demais são racionais.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "boaro",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36722,
+    "family": "rastro909:1a44da12ad172536",
+    "rootFamily": "rastro909:1a44da12ad172536",
+    "template": "rastro909:transfer:5e26d150b7d9",
+    "patternFamily": "rastro909:transfer:5e26d150b7d9",
+    "solutionSteps": [
+      "√2 não pode ser escrito como razão de dois inteiros. Os demais são racionais."
+    ],
+    "whyCorrect": "√2 não pode ser escrito como razão de dois inteiros. Os demais são racionais.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-10-5834E2B7",
+    "subject": "Matemática",
+    "grade": 10,
+    "area": "Geometria e trigonometria",
+    "skill": "Teorema de Pitágoras",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Uma escada de 10 m encosta em uma parede. A base está a 6 m da parede. A que altura a escada alcança?",
+    "hint": "A escada é a hipotenusa.",
+    "options": [
+      "8 m",
+      "4 m",
+      "16 m",
+      "√136 m"
+    ],
+    "correctIndex": 0,
+    "correctText": "8 m",
+    "explanation": "Forma-se um triângulo retângulo: h²+6²=10², então h²=64 e h=8.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36723,
+    "family": "rastro909:5834e2b7c2810bfa",
+    "rootFamily": "rastro909:5834e2b7c2810bfa",
+    "template": "rastro909:transfer:ef3e6b41abad",
+    "patternFamily": "rastro909:transfer:ef3e6b41abad",
+    "solutionSteps": [
+      "h²+36=100",
+      "h²=64",
+      "h=8."
+    ],
+    "whyCorrect": "Forma-se um triângulo retângulo: h²+6²=10², então h²=64 e h=8.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-10-0789EC9A",
+    "subject": "Matemática",
+    "grade": 10,
+    "area": "Matemática financeira",
+    "skill": "Juros compostos",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Uma aplicação terminou com R$ 1.210 após 2 anos a 10% ao ano, com capitalização composta. Qual era o capital inicial?",
+    "hint": "Aqui o montante é conhecido; isole o capital na fórmula.",
+    "options": [
+      "R$ 990",
+      "R$ 1.010",
+      "R$ 1.100",
+      "R$ 1.000"
+    ],
+    "correctIndex": 3,
+    "correctText": "R$ 1.000",
+    "explanation": "Em juros compostos, M=C(1+i)^t. Assim, 1210=C·1,1²=C·1,21; logo C=1210/1,21=1000.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36724,
+    "family": "rastro909:0789ec9a3e674399",
+    "rootFamily": "rastro909:0789ec9a3e674399",
+    "template": "rastro909:transfer:39b1199c0e6a",
+    "patternFamily": "rastro909:transfer:39b1199c0e6a",
+    "solutionSteps": [
+      "1210=C·1,21",
+      "C=1210/1,21=1000."
+    ],
+    "whyCorrect": "Em juros compostos, M=C(1+i)^t. Assim, 1210=C·1,1²=C·1,21; logo C=1210/1,21=1000.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-10-3EC59786",
+    "subject": "Matemática",
+    "grade": 10,
+    "area": "Matemática financeira",
+    "skill": "Juros simples",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Um investimento de R$ 1.200 gerou R$ 180 de juros simples em 6 meses. Qual foi a taxa mensal?",
+    "hint": "Isole i em J=C·i·t.",
+    "options": [
+      "1,5% ao mês",
+      "3% ao mês",
+      "15% ao mês",
+      "2,5% ao mês"
+    ],
+    "correctIndex": 3,
+    "correctText": "2,5% ao mês",
+    "explanation": "J=C·i·t. Então 180=1200·i·6, logo i=180/7200=0,025=2,5% ao mês.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36725,
+    "family": "rastro909:3ec5978691835b94",
+    "rootFamily": "rastro909:3ec5978691835b94",
+    "template": "rastro909:transfer:756e5549c64f",
+    "patternFamily": "rastro909:transfer:756e5549c64f",
+    "solutionSteps": [
+      "i=180/(1200·6)",
+      "i=0,025=2,5%."
+    ],
+    "whyCorrect": "J=C·i·t. Então 180=1200·i·6, logo i=180/7200=0,025=2,5% ao mês.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-10-2A3CDB65",
+    "subject": "Matemática",
+    "grade": 10,
+    "area": "Matemática financeira",
+    "skill": "Porcentagens sucessivas",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Um preço aumenta 20% e depois recebe desconto de 20%. Em relação ao preço inicial, o resultado final é:",
+    "hint": "Multiplique os fatores 1,20 e 0,80; não cancele percentuais.",
+    "options": [
+      "4% maior",
+      "20% menor",
+      "4% menor",
+      "igual ao inicial"
+    ],
+    "correctIndex": 2,
+    "correctText": "4% menor",
+    "explanation": "Os percentuais sucessivos atuam sobre bases diferentes: 1,20·0,80=0,96. O final é 96% do inicial, isto é, 4% menor.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "pedro_assad",
+      "boaro"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36726,
+    "family": "rastro909:2a3cdb65a6d1aba2",
+    "rootFamily": "rastro909:2a3cdb65a6d1aba2",
+    "template": "rastro909:transfer:6ab4c3cc1687",
+    "patternFamily": "rastro909:transfer:6ab4c3cc1687",
+    "solutionSteps": [
+      "1,20·0,80=0,96."
+    ],
+    "whyCorrect": "Os percentuais sucessivos atuam sobre bases diferentes: 1,20·0,80=0,96. O final é 96% do inicial, isto é, 4% menor.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-11-5F616E7A",
+    "subject": "Matemática",
+    "grade": 11,
+    "area": "Combinatória e probabilidade",
+    "skill": "Probabilidade condicional introdutória",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Em uma turma há 12 meninas, das quais 3 usam óculos. Sabendo que a pessoa escolhida é menina, qual é a probabilidade de ela usar óculos?",
+    "hint": "Depois da condição, conte apenas dentro do grupo informado.",
+    "options": [
+      "3/8",
+      "1/4",
+      "3/20",
+      "3/12? Não: 3/12=1/4"
+    ],
+    "correctIndex": 1,
+    "correctText": "1/4",
+    "explanation": "A condição restringe o espaço amostral às 12 meninas. Dessas, 3 usam óculos: 3/12=1/4.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36727,
+    "family": "rastro909:5f616e7adb8bd539",
+    "rootFamily": "rastro909:5f616e7adb8bd539",
+    "template": "rastro909:transfer:279b81fcae9b",
+    "patternFamily": "rastro909:transfer:279b81fcae9b",
+    "solutionSteps": [
+      "A condição restringe o espaço amostral às 12 meninas. Dessas, 3 usam óculos: 3/12=1/4."
+    ],
+    "whyCorrect": "A condição restringe o espaço amostral às 12 meninas. Dessas, 3 usam óculos: 3/12=1/4.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-11-EE4F9B5E",
+    "subject": "Matemática",
+    "grade": 11,
+    "area": "Estatística e interpretação",
+    "skill": "Dispersão e leitura de gráficos",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Duas séries têm a mesma média 50. A série X varia de 48 a 52; a Y varia de 20 a 80. Qual conclusão é sustentada apenas por essas informações?",
+    "hint": "Compare o intervalo entre mínimo e máximo.",
+    "options": [
+      "Y tem necessariamente menor desvio padrão sem cálculo",
+      "As séries são idênticas",
+      "Y apresenta maior amplitude e maior espalhamento observado",
+      "X tem média maior"
+    ],
+    "correctIndex": 2,
+    "correctText": "Y apresenta maior amplitude e maior espalhamento observado",
+    "explanation": "A amplitude de X é 4 e a de Y é 60. Isso mostra maior espalhamento observado em Y; médias iguais não tornam as distribuições iguais.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto",
+      "pedro_assad",
+      "boaro"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36728,
+    "family": "rastro909:ee4f9b5e36f93837",
+    "rootFamily": "rastro909:ee4f9b5e36f93837",
+    "template": "rastro909:transfer:f779af3173c1",
+    "patternFamily": "rastro909:transfer:f779af3173c1",
+    "solutionSteps": [
+      "A amplitude de X é 4 e a de Y é 60. Isso mostra maior espalhamento observado em Y; médias iguais não tornam as distribuições iguais."
+    ],
+    "whyCorrect": "A amplitude de X é 4 e a de Y é 60. Isso mostra maior espalhamento observado em Y; médias iguais não tornam as distribuições iguais.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-11-A97BAE54",
+    "subject": "Matemática",
+    "grade": 11,
+    "area": "Estatística e interpretação",
+    "skill": "Estatística",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Duas turmas têm média 7. Na turma A, quase todas as notas ficam entre 6 e 8; na turma B, há notas entre 2 e 10. Qual conclusão é sustentada por essas informações?",
+    "hint": "Separe a ideia de valor central da ideia de espalhamento.",
+    "options": [
+      "Não é possível comparar o espalhamento em nenhuma hipótese",
+      "A turma B apresenta maior dispersão das notas",
+      "As duas turmas têm a mesma dispersão porque a média é igual",
+      "A turma A necessariamente tem maior desvio"
+    ],
+    "correctIndex": 1,
+    "correctText": "A turma B apresenta maior dispersão das notas",
+    "explanation": "A média descreve o centro, mas não o espalhamento. Como as notas da turma B ocupam um intervalo muito mais amplo, os dados indicam maior dispersão em torno do centro.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto",
+      "pedro_assad",
+      "boaro"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36729,
+    "family": "rastro909:a97bae5420d4977b",
+    "rootFamily": "rastro909:a97bae5420d4977b",
+    "template": "rastro909:transfer:586e43ed1f7e",
+    "patternFamily": "rastro909:transfer:586e43ed1f7e",
+    "solutionSteps": [
+      "A média utiliza todos os valores e é sensível a extremos. Um valor muito alto puxa a média para cima."
+    ],
+    "whyCorrect": "A média descreve o centro, mas não o espalhamento. Como as notas da turma B ocupam um intervalo muito mais amplo, os dados indicam maior dispersão em torno do centro.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-11-433171B2",
+    "subject": "Matemática",
+    "grade": 11,
+    "area": "Trigonometria",
+    "skill": "Relações trigonométricas",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Em um triângulo retângulo, em relação a um ângulo θ, o cateto oposto mede 6 e o adjacente mede 8. Qual relação calcula diretamente tan(θ)?",
+    "hint": "Identifique oposto e adjacente antes de escolher a razão.",
+    "options": [
+      "tan(θ)=8/10",
+      "tan(θ)=6/8",
+      "tan(θ)=8/6",
+      "tan(θ)=6/10"
+    ],
+    "correctIndex": 1,
+    "correctText": "tan(θ)=6/8",
+    "explanation": "Tangente é cateto oposto dividido pelo cateto adjacente: 6/8.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36730,
+    "family": "rastro909:433171b274c86422",
+    "rootFamily": "rastro909:433171b274c86422",
+    "template": "rastro909:transfer:37a756799c25",
+    "patternFamily": "rastro909:transfer:37a756799c25",
+    "solutionSteps": [
+      "Tangente é cateto oposto dividido pelo cateto adjacente: 6/8."
+    ],
+    "whyCorrect": "Tangente é cateto oposto dividido pelo cateto adjacente: 6/8.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-11-3C889F84",
+    "subject": "Matemática",
+    "grade": 11,
+    "area": "Trigonometria",
+    "skill": "Seno, cosseno e tangente",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Em um triângulo retângulo de lados 5, 12 e 13, o ângulo α tem como cateto adjacente o lado 12. Qual é cos(α)?",
+    "hint": "cos = adjacente/hipotenusa.",
+    "options": [
+      "12/13",
+      "5/13",
+      "5/12",
+      "13/12"
+    ],
+    "correctIndex": 0,
+    "correctText": "12/13",
+    "explanation": "Cosseno é cateto adjacente dividido pela hipotenusa. Para α, o adjacente mede 12 e a hipotenusa 13, então cos(α)=12/13.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36731,
+    "family": "rastro909:3c889f844b6152ac",
+    "rootFamily": "rastro909:3c889f844b6152ac",
+    "template": "rastro909:transfer:f31f9dbcba62",
+    "patternFamily": "rastro909:transfer:f31f9dbcba62",
+    "solutionSteps": [
+      "cos(α)=12/13."
+    ],
+    "whyCorrect": "Cosseno é cateto adjacente dividido pela hipotenusa. Para α, o adjacente mede 12 e a hipotenusa 13, então cos(α)=12/13.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-11-8FC64FAD",
+    "subject": "Matemática",
+    "grade": 11,
+    "area": "Trigonometria",
+    "skill": "Trigonometria no triângulo retângulo",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Uma rampa sobe 3 m ao longo de uma projeção horizontal de 4 m. Qual é a tangente do ângulo de inclinação com o chão?",
+    "hint": "Tangente relaciona subida vertical e avanço horizontal.",
+    "options": [
+      "4/5",
+      "3/4",
+      "4/3",
+      "3/5"
+    ],
+    "correctIndex": 1,
+    "correctText": "3/4",
+    "explanation": "Para o ângulo com o chão, o cateto oposto é a subida 3 e o adjacente é 4: tan=3/4.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto",
+      "pedro_assad",
+      "boaro"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36732,
+    "family": "rastro909:8fc64fad68e12421",
+    "rootFamily": "rastro909:8fc64fad68e12421",
+    "template": "rastro909:transfer:e2b2b6f20b44",
+    "patternFamily": "rastro909:transfer:e2b2b6f20b44",
+    "solutionSteps": [
+      "Para o ângulo com o chão, o cateto oposto é a subida 3 e o adjacente é 4: tan=3/4."
+    ],
+    "whyCorrect": "Para o ângulo com o chão, o cateto oposto é a subida 3 e o adjacente é 4: tan=3/4.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-203A0989",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Funções integradas",
+    "skill": "Função afim",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Uma função afim passa pelos pontos (0, -3) e (4, 5). Qual é sua lei?",
+    "hint": "Use a variação de y dividida pela variação de x e depois o valor em x=0.",
+    "options": [
+      "f(x)=2x-3",
+      "f(x)=x-3",
+      "f(x)=2x+3",
+      "f(x)=8x-3"
+    ],
+    "correctIndex": 0,
+    "correctText": "f(x)=2x-3",
+    "explanation": "O coeficiente angular é (5-(-3))/(4-0)=8/4=2. Como f(0)=-3, o termo independente é -3.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "boaro",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36733,
+    "family": "rastro909:203a0989ea7de306",
+    "rootFamily": "rastro909:203a0989ea7de306",
+    "template": "rastro909:transfer:71d3a2824454",
+    "patternFamily": "rastro909:transfer:71d3a2824454",
+    "solutionSteps": [
+      "a=(5+3)/4=2",
+      "b=-3",
+      "f(x)=2x-3."
+    ],
+    "whyCorrect": "O coeficiente angular é (5-(-3))/(4-0)=8/4=2. Como f(0)=-3, o termo independente é -3.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-69975B90",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Funções integradas",
+    "skill": "Função exponencial",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Uma cultura começa com 200 bactérias e dobra a cada hora. Qual função descreve a quantidade após t horas?",
+    "hint": "Identifique valor inicial e fator multiplicativo.",
+    "options": [
+      "N(t)=200+2t",
+      "N(t)=2·200^t",
+      "N(t)=200·t²",
+      "N(t)=200·2^t"
+    ],
+    "correctIndex": 3,
+    "correctText": "N(t)=200·2^t",
+    "explanation": "Dobrar a cada unidade de tempo caracteriza multiplicação repetida por 2, logo uma função exponencial com valor inicial 200.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36734,
+    "family": "rastro909:69975b90447f3a35",
+    "rootFamily": "rastro909:69975b90447f3a35",
+    "template": "rastro909:transfer:f4ebf30bf2b3",
+    "patternFamily": "rastro909:transfer:f4ebf30bf2b3",
+    "solutionSteps": [
+      "Dobrar a cada unidade de tempo caracteriza multiplicação repetida por 2, logo uma função exponencial com valor inicial 200."
+    ],
+    "whyCorrect": "Dobrar a cada unidade de tempo caracteriza multiplicação repetida por 2, logo uma função exponencial com valor inicial 200.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-4B483CF8",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Funções integradas",
+    "skill": "Logaritmos",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Se log₂(x)=5, qual é o valor de x?",
+    "hint": "Reescreva a igualdade logarítmica na forma exponencial.",
+    "options": [
+      "64",
+      "32",
+      "10",
+      "25"
+    ],
+    "correctIndex": 1,
+    "correctText": "32",
+    "explanation": "log₂(x)=5 significa exatamente 2^5=x. Como 2^5=32, x=32.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "boaro",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36735,
+    "family": "rastro909:4b483cf82aea1723",
+    "rootFamily": "rastro909:4b483cf82aea1723",
+    "template": "rastro909:transfer:c88b37f5b4db",
+    "patternFamily": "rastro909:transfer:c88b37f5b4db",
+    "solutionSteps": [
+      "log₂(x)=5 significa exatamente 2^5=x. Como 2^5=32, x=32."
+    ],
+    "whyCorrect": "log₂(x)=5 significa exatamente 2^5=x. Como 2^5=32, x=32.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-A819F8D3",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Geometria analítica",
+    "skill": "Equação da reta",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Qual é a equação da reta de coeficiente angular 3 que passa pelo ponto (0, -2)?",
+    "hint": "Em x=0, o valor de y revela o termo independente.",
+    "options": [
+      "y=3x-2",
+      "y=-2x+3",
+      "y=3x+2",
+      "y=x-2"
+    ],
+    "correctIndex": 0,
+    "correctText": "y=3x-2",
+    "explanation": "Na forma y=mx+b, m=3. Como a reta passa por (0,-2), b=-2.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36736,
+    "family": "rastro909:a819f8d307c6f659",
+    "rootFamily": "rastro909:a819f8d307c6f659",
+    "template": "rastro909:transfer:7ca187ea26bd",
+    "patternFamily": "rastro909:transfer:7ca187ea26bd",
+    "solutionSteps": [
+      "Na forma y=mx+b, m=3. Como a reta passa por (0,-2), b=-2."
+    ],
+    "whyCorrect": "Na forma y=mx+b, m=3. Como a reta passa por (0,-2), b=-2.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-2272C636",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Geometria analítica",
+    "skill": "Geometria analítica",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Qual é a distância entre os pontos A(1,2) e B(4,6)?",
+    "hint": "As diferenças horizontal e vertical formam catetos de um triângulo retângulo.",
+    "options": [
+      "4",
+      "7",
+      "5",
+      "3"
+    ],
+    "correctIndex": 2,
+    "correctText": "5",
+    "explanation": "Δx=3 e Δy=4. Pela distância no plano, d=√(3²+4²)=5.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36737,
+    "family": "rastro909:2272c6366b978fb7",
+    "rootFamily": "rastro909:2272c6366b978fb7",
+    "template": "rastro909:transfer:eeb6a747602d",
+    "patternFamily": "rastro909:transfer:eeb6a747602d",
+    "solutionSteps": [
+      "Δx=3, Δy=4",
+      "d=√(9+16)=5."
+    ],
+    "whyCorrect": "Δx=3 e Δy=4. Pela distância no plano, d=√(3²+4²)=5.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-742691E3",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Geometria analítica",
+    "skill": "Ponto médio",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "O ponto M(4,3) é o ponto médio de A(1,-2) e B(x,y). Quais são as coordenadas de B?",
+    "hint": "Use as duas coordenadas do ponto médio para montar duas equações.",
+    "options": [
+      "(7, 8)",
+      "(3, 5)",
+      "(5, 1)",
+      "(8, 7)"
+    ],
+    "correctIndex": 0,
+    "correctText": "(7, 8)",
+    "explanation": "Pelo ponto médio, (1+x)/2=4 e (-2+y)/2=3. Assim x=7 e y=8.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36738,
+    "family": "rastro909:742691e327e78308",
+    "rootFamily": "rastro909:742691e327e78308",
+    "template": "rastro909:transfer:84e49cb128fa",
+    "patternFamily": "rastro909:transfer:84e49cb128fa",
+    "solutionSteps": [
+      "(1+x)/2=4 → x=7",
+      "(-2+y)/2=3 → y=8."
+    ],
+    "whyCorrect": "Pelo ponto médio, (1+x)/2=4 e (-2+y)/2=3. Assim x=7 e y=8.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-0EF19F2A",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Matemática aplicada",
+    "skill": "Matemática financeira",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Uma dívida de R$ 1.500 é quitada com acréscimo total de 8% sobre o valor original. Qual é o valor pago?",
+    "hint": "Transforme 8% em 0,08 e aplique ao valor original.",
+    "options": [
+      "R$ 1.580",
+      "R$ 1.700",
+      "R$ 1.620",
+      "R$ 1.508"
+    ],
+    "correctIndex": 2,
+    "correctText": "R$ 1.620",
+    "explanation": "8% de 1500 é 120; somando ao principal, 1620.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto",
+      "pedro_assad",
+      "boaro"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36739,
+    "family": "rastro909:0ef19f2ad92e95ea",
+    "rootFamily": "rastro909:0ef19f2ad92e95ea",
+    "template": "rastro909:transfer:a7f0f0d1988b",
+    "patternFamily": "rastro909:transfer:a7f0f0d1988b",
+    "solutionSteps": [
+      "1500·0,08=120",
+      "1500+120=1620."
+    ],
+    "whyCorrect": "8% de 1500 é 120; somando ao principal, 1620.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-9356F4DC",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Polinômios e números complexos",
+    "skill": "Potências de i",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "As potências de i repetem um ciclo de quatro termos. Qual potência abaixo tem o mesmo valor que i?",
+    "hint": "Divida cada expoente por 4 e observe o resto.",
+    "options": [
+      "i^38",
+      "i^39",
+      "i^40",
+      "i^37"
+    ],
+    "correctIndex": 3,
+    "correctText": "i^37",
+    "explanation": "Expoentes congruentes a 1 módulo 4 produzem i. Como 37=4·9+1, i^37=i.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36740,
+    "family": "rastro909:9356f4dc50883c11",
+    "rootFamily": "rastro909:9356f4dc50883c11",
+    "template": "rastro909:transfer:1acf99c76298",
+    "patternFamily": "rastro909:transfer:1acf99c76298",
+    "solutionSteps": [
+      "37 mod 4 = 1",
+      "i^37=i."
+    ],
+    "whyCorrect": "Expoentes congruentes a 1 módulo 4 produzem i. Como 37=4·9+1, i^37=i.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-B02A29B5",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Polinômios e números complexos",
+    "skill": "Raízes de polinômios",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Qual número é raiz de p(x)=x²-5x+6?",
+    "hint": "Uma raiz faz o polinômio valer zero.",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "5"
+    ],
+    "correctIndex": 0,
+    "correctText": "2",
+    "explanation": "p(2)=4-10+6=0, logo 2 é raiz. De fato, x²-5x+6=(x-2)(x-3).",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36741,
+    "family": "rastro909:b02a29b5994f68b7",
+    "rootFamily": "rastro909:b02a29b5994f68b7",
+    "template": "rastro909:transfer:78c477267829",
+    "patternFamily": "rastro909:transfer:78c477267829",
+    "solutionSteps": [
+      "p(2)=4-10+6=0, logo 2 é raiz. De fato, x²-5x+6=(x-2)(x-3)."
+    ],
+    "whyCorrect": "p(2)=4-10+6=0, logo 2 é raiz. De fato, x²-5x+6=(x-2)(x-3).",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-AABD527C",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Probabilidade e estatística",
+    "skill": "Análise combinatória",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Uma senha é formada por 2 letras distintas escolhidas entre A, B, C, D, com ordem importando. Quantas senhas são possíveis?",
+    "hint": "Como não pode repetir e a ordem importa, o número de opções muda na segunda posição.",
+    "options": [
+      "8",
+      "16",
+      "12",
+      "6"
+    ],
+    "correctIndex": 2,
+    "correctText": "12",
+    "explanation": "Há 4 escolhas para a primeira letra e 3 para a segunda: 4·3=12.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "pedro_assad",
+      "boaro"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36742,
+    "family": "rastro909:aabd527ca9fb9b2e",
+    "rootFamily": "rastro909:aabd527ca9fb9b2e",
+    "template": "rastro909:transfer:42e3375ad755",
+    "patternFamily": "rastro909:transfer:42e3375ad755",
+    "solutionSteps": [
+      "Há 4 escolhas para a primeira letra e 3 para a segunda: 4·3=12."
+    ],
+    "whyCorrect": "Há 4 escolhas para a primeira letra e 3 para a segunda: 4·3=12.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-8578E752",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Probabilidade e estatística",
+    "skill": "Análise crítica de gráficos",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Um gráfico de barras compara valores 98 e 100, mas o eixo vertical começa em 97. As barras parecem ter alturas muito diferentes. Qual cuidado é necessário?",
+    "hint": "Observe onde o eixo começa e qual intervalo cada marca representa.",
+    "options": [
+      "Concluir que 100 é o dobro de 98",
+      "Ignorar os valores e olhar apenas o tamanho das barras",
+      "Assumir que todo eixo deve começar em 97",
+      "Verificar a escala do eixo, pois o corte pode exagerar visualmente uma diferença pequena"
+    ],
+    "correctIndex": 3,
+    "correctText": "Verificar a escala do eixo, pois o corte pode exagerar visualmente uma diferença pequena",
+    "explanation": "O intervalo truncado amplia visualmente a diferença de 2 unidades. A leitura crítica considera valores, origem e escala dos eixos.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36743,
+    "family": "rastro909:8578e752306e5132",
+    "rootFamily": "rastro909:8578e752306e5132",
+    "template": "rastro909:transfer:5e852cdd5ec3",
+    "patternFamily": "rastro909:transfer:5e852cdd5ec3",
+    "solutionSteps": [
+      "O intervalo truncado amplia visualmente a diferença de 2 unidades. A leitura crítica considera valores, origem e escala dos eixos."
+    ],
+    "whyCorrect": "O intervalo truncado amplia visualmente a diferença de 2 unidades. A leitura crítica considera valores, origem e escala dos eixos.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-9EA643E8",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Probabilidade e estatística",
+    "skill": "Estatística",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Os valores 4, 6, 6, 7, 9, 10 e 14 estão em ordem crescente. Qual afirmação descreve corretamente uma medida de posição desse conjunto?",
+    "hint": "Com quantidade ímpar de dados ordenados, localize exatamente o termo central.",
+    "options": [
+      "A média é necessariamente 7",
+      "A mediana é 7",
+      "A mediana é 6",
+      "A moda é 7"
+    ],
+    "correctIndex": 1,
+    "correctText": "A mediana é 7",
+    "explanation": "Há sete valores ordenados, então a mediana é o quarto termo. O quarto valor é 7. A moda é 6, e a média usa a soma de todos os valores.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36744,
+    "family": "rastro909:9ea643e8088c8d66",
+    "rootFamily": "rastro909:9ea643e8088c8d66",
+    "template": "rastro909:transfer:57037ba7fa9e",
+    "patternFamily": "rastro909:transfer:57037ba7fa9e",
+    "solutionSteps": [
+      "A média utiliza todos os valores e é sensível a extremos. Um valor muito alto puxa a média para cima."
+    ],
+    "whyCorrect": "Há sete valores ordenados, então a mediana é o quarto termo. O quarto valor é 7. A moda é 6, e a média usa a soma de todos os valores.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-12-F47F8C49",
+    "subject": "Matemática",
+    "grade": 12,
+    "area": "Probabilidade e estatística",
+    "skill": "Probabilidade",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Uma caixa possui 4 peças boas e 1 defeituosa. Uma peça é escolhida ao acaso. Qual é a probabilidade de ela ser defeituosa?",
+    "hint": "Conte casos favoráveis e total de casos.",
+    "options": [
+      "1/5",
+      "4/5",
+      "1/4",
+      "5/1"
+    ],
+    "correctIndex": 0,
+    "correctText": "1/5",
+    "explanation": "Existe 1 peça defeituosa entre 5 peças no total, logo P=1/5.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "boaro",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36745,
+    "family": "rastro909:f47f8c498d2a98c8",
+    "rootFamily": "rastro909:f47f8c498d2a98c8",
+    "template": "rastro909:transfer:2f9f37a90c0c",
+    "patternFamily": "rastro909:transfer:2f9f37a90c0c",
+    "solutionSteps": [
+      "1 defeituosa / 5 totais = 1/5."
+    ],
+    "whyCorrect": "Existe 1 peça defeituosa entre 5 peças no total, logo P=1/5.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-5-15DAB9BC",
+    "subject": "Matemática",
+    "grade": 5,
+    "area": "Álgebra e padrões",
+    "skill": "Igualdade e equivalência",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "5º ano · Qual expressão mantém a igualdade 18+7=25 ao realizar a mesma alteração nos dois lados?",
+    "hint": "Pense em uma balança: a mesma mudança precisa ocorrer nos dois lados.",
+    "options": [
+      "18+7+3=25",
+      "18+7=25+3",
+      "18+3=25+7",
+      "18+7+3=25+3"
+    ],
+    "correctIndex": 3,
+    "correctText": "18+7+3=25+3",
+    "explanation": "Uma igualdade é preservada quando a mesma operação é feita nos dois membros. Somar 3 dos dois lados mantém valores equivalentes.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36746,
+    "family": "rastro909:15dab9bc7f1acee3",
+    "rootFamily": "rastro909:15dab9bc7f1acee3",
+    "template": "rastro909:transfer:d318dbb3eae6",
+    "patternFamily": "rastro909:transfer:d318dbb3eae6",
+    "solutionSteps": [
+      "Uma igualdade é preservada quando a mesma operação é feita nos dois membros. Somar 3 dos dois lados mantém valores equivalentes."
+    ],
+    "whyCorrect": "Uma igualdade é preservada quando a mesma operação é feita nos dois membros. Somar 3 dos dois lados mantém valores equivalentes.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-5-3EA3CE7C",
+    "subject": "Matemática",
+    "grade": 5,
+    "area": "Geometria e localização",
+    "skill": "Localização no plano cartesiano",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "5º ano · Um ponto está 4 unidades à direita da origem e 3 unidades abaixo dela. Quais são suas coordenadas?",
+    "hint": "Primeiro vem a coordenada horizontal x; depois a vertical y.",
+    "options": [
+      "(3, -4)",
+      "(4, 3)",
+      "(4, -3)",
+      "(-4, 3)"
+    ],
+    "correctIndex": 2,
+    "correctText": "(4, -3)",
+    "explanation": "Direita indica x positivo: 4. Abaixo indica y negativo: -3. Logo (4,-3).",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36747,
+    "family": "rastro909:3ea3ce7c49732aaf",
+    "rootFamily": "rastro909:3ea3ce7c49732aaf",
+    "template": "rastro909:transfer:a444df127bfd",
+    "patternFamily": "rastro909:transfer:a444df127bfd",
+    "solutionSteps": [
+      "Direita indica x positivo: 4. Abaixo indica y negativo: -3. Logo (4,-3)."
+    ],
+    "whyCorrect": "Direita indica x positivo: 4. Abaixo indica y negativo: -3. Logo (4,-3).",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-5-FD088732",
+    "subject": "Matemática",
+    "grade": 5,
+    "area": "Geometria e localização",
+    "skill": "Sólidos e planificações",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "5º ano · Uma planificação possui 6 quadrados congruentes e pode ser dobrada sem sobreposição formando um sólido. Qual sólido ela pode representar?",
+    "hint": "Conte e identifique o formato das faces.",
+    "options": [
+      "Cilindro",
+      "Cone",
+      "Pirâmide triangular",
+      "Cubo"
+    ],
+    "correctIndex": 3,
+    "correctText": "Cubo",
+    "explanation": "Um cubo possui 6 faces quadradas congruentes; uma planificação adequada reúne exatamente essas faces de modo dobrável.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36748,
+    "family": "rastro909:fd088732cab7c975",
+    "rootFamily": "rastro909:fd088732cab7c975",
+    "template": "rastro909:transfer:2d1868a0350d",
+    "patternFamily": "rastro909:transfer:2d1868a0350d",
+    "solutionSteps": [
+      "Um cubo possui 6 faces quadradas congruentes; uma planificação adequada reúne exatamente essas faces de modo dobrável."
+    ],
+    "whyCorrect": "Um cubo possui 6 faces quadradas congruentes; uma planificação adequada reúne exatamente essas faces de modo dobrável.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-5-765F293D",
+    "subject": "Matemática",
+    "grade": 5,
+    "area": "Grandezas, probabilidade e dados",
+    "skill": "Probabilidade simples",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Dentro de uma sacola há 4 fichas vermelhas, 3 verdes e 1 branca. Retirando uma ficha ao acaso, qual é a probabilidade de ela ser branca?",
+    "hint": "Conte o total de fichas e quantas atendem ao evento.",
+    "options": [
+      "1/8",
+      "1/4",
+      "3/8",
+      "4/8"
+    ],
+    "correctIndex": 0,
+    "correctText": "1/8",
+    "explanation": "Há 8 fichas no total e apenas 1 branca. Portanto a probabilidade é 1/8.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36749,
+    "family": "rastro909:765f293d56747a5c",
+    "rootFamily": "rastro909:765f293d56747a5c",
+    "template": "rastro909:transfer:4b9ca6a1ab06",
+    "patternFamily": "rastro909:transfer:4b9ca6a1ab06",
+    "solutionSteps": [
+      "total=4+3+1=8",
+      "favoráveis=1",
+      "P=1/8."
+    ],
+    "whyCorrect": "Há 8 fichas no total e apenas 1 branca. Portanto a probabilidade é 1/8.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-5-CEF71AD7",
+    "subject": "Matemática",
+    "grade": 5,
+    "area": "Grandezas, probabilidade e dados",
+    "skill": "Volume por cubos",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "5º ano · Uma construção é formada por 3 camadas iguais, cada uma com 4 fileiras de 5 cubinhos. Quantos cubinhos há ao todo?",
+    "hint": "Conte comprimento × largura × altura em unidades cúbicas.",
+    "options": [
+      "20",
+      "45",
+      "60",
+      "12"
+    ],
+    "correctIndex": 2,
+    "correctText": "60",
+    "explanation": "Cada camada tem 4·5=20 cubos; em 3 camadas, 3·20=60.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36750,
+    "family": "rastro909:cef71ad7f6a976e7",
+    "rootFamily": "rastro909:cef71ad7f6a976e7",
+    "template": "rastro909:transfer:2c85a03002d1",
+    "patternFamily": "rastro909:transfer:2c85a03002d1",
+    "solutionSteps": [
+      "Cada camada tem 4·5=20 cubos; em 3 camadas, 3·20=60."
+    ],
+    "whyCorrect": "Cada camada tem 4·5=20 cubos; em 3 camadas, 3·20=60.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-6-029A2B6A",
+    "subject": "Matemática",
+    "grade": 6,
+    "area": "Frações, decimais e porcentagens",
+    "skill": "Operações com frações",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "6º ano · Quanto é 3/4 - 1/6?",
+    "hint": "Use denominador comum antes de subtrair.",
+    "options": [
+      "1/2",
+      "5/12",
+      "7/12",
+      "2/10"
+    ],
+    "correctIndex": 2,
+    "correctText": "7/12",
+    "explanation": "O MMC de 4 e 6 é 12: 3/4=9/12 e 1/6=2/12. Então 9/12-2/12=7/12.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36751,
+    "family": "rastro909:029a2b6aef15529d",
+    "rootFamily": "rastro909:029a2b6aef15529d",
+    "template": "rastro909:transfer:f5a25658c504",
+    "patternFamily": "rastro909:transfer:f5a25658c504",
+    "solutionSteps": [
+      "3/4=9/12",
+      "1/6=2/12",
+      "9/12-2/12=7/12."
+    ],
+    "whyCorrect": "O MMC de 4 e 6 é 12: 3/4=9/12 e 1/6=2/12. Então 9/12-2/12=7/12.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-6-61131E67",
+    "subject": "Matemática",
+    "grade": 6,
+    "area": "Geometria e plano cartesiano",
+    "skill": "Plano cartesiano",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "6º ano · O ponto P(-2,5) está em qual região do plano?",
+    "hint": "Leia o sinal de cada coordenada separadamente.",
+    "options": [
+      "x positivo e y negativo",
+      "x e y positivos",
+      "x e y negativos",
+      "x negativo e y positivo"
+    ],
+    "correctIndex": 3,
+    "correctText": "x negativo e y positivo",
+    "explanation": "Em P(-2,5), a coordenada x é negativa e a y é positiva.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36752,
+    "family": "rastro909:61131e67f4522a35",
+    "rootFamily": "rastro909:61131e67f4522a35",
+    "template": "rastro909:transfer:25a552bcf2e1",
+    "patternFamily": "rastro909:transfer:25a552bcf2e1",
+    "solutionSteps": [
+      "Em P(-2,5), a coordenada x é negativa e a y é positiva."
+    ],
+    "whyCorrect": "Em P(-2,5), a coordenada x é negativa e a y é positiva.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-6-67BB06B3",
+    "subject": "Matemática",
+    "grade": 6,
+    "area": "Geometria e plano cartesiano",
+    "skill": "Polígonos e classificação",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "6º ano · Um polígono possui 8 lados. Como ele é classificado pelo número de lados?",
+    "hint": "Relacione o prefixo “octo” ao número 8.",
+    "options": [
+      "Decágono",
+      "Octógono",
+      "Hexágono",
+      "Heptágono"
+    ],
+    "correctIndex": 1,
+    "correctText": "Octógono",
+    "explanation": "Polígonos de oito lados são octógonos.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36753,
+    "family": "rastro909:67bb06b39d11212a",
+    "rootFamily": "rastro909:67bb06b39d11212a",
+    "template": "rastro909:transfer:21ac833322a0",
+    "patternFamily": "rastro909:transfer:21ac833322a0",
+    "solutionSteps": [
+      "Polígonos de oito lados são octógonos."
+    ],
+    "whyCorrect": "Polígonos de oito lados são octógonos.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-6-7B207E9A",
+    "subject": "Matemática",
+    "grade": 6,
+    "area": "Números e divisibilidade",
+    "skill": "MDC e MMC",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "6º ano · Dois sinais piscam a cada 12 s e 18 s. Se piscam juntos agora, depois de quanto tempo voltarão a piscar juntos?",
+    "hint": "Eventos periódicos que precisam coincidir novamente pedem o MMC.",
+    "options": [
+      "216 s",
+      "36 s",
+      "6 s",
+      "30 s"
+    ],
+    "correctIndex": 1,
+    "correctText": "36 s",
+    "explanation": "O reencontro ocorre em um múltiplo comum mínimo: MMC(12,18)=36.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36754,
+    "family": "rastro909:7b207e9a4076c0d1",
+    "rootFamily": "rastro909:7b207e9a4076c0d1",
+    "template": "rastro909:transfer:4a4edfb84083",
+    "patternFamily": "rastro909:transfer:4a4edfb84083",
+    "solutionSteps": [
+      "O reencontro ocorre em um múltiplo comum mínimo: MMC(12,18)=36."
+    ],
+    "whyCorrect": "O reencontro ocorre em um múltiplo comum mínimo: MMC(12,18)=36.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-6-16D5B124",
+    "subject": "Matemática",
+    "grade": 6,
+    "area": "Números e divisibilidade",
+    "skill": "Números primos e compostos",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "6º ano · Qual dos números abaixo é primo?",
+    "hint": "Teste divisores pequenos; um primo tem exatamente dois divisores positivos.",
+    "options": [
+      "27",
+      "33",
+      "29",
+      "21"
+    ],
+    "correctIndex": 2,
+    "correctText": "29",
+    "explanation": "29 só tem divisores positivos 1 e 29. Os demais são divisíveis por 3.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36755,
+    "family": "rastro909:16d5b124e5c7b8eb",
+    "rootFamily": "rastro909:16d5b124e5c7b8eb",
+    "template": "rastro909:transfer:58d28ffc093c",
+    "patternFamily": "rastro909:transfer:58d28ffc093c",
+    "solutionSteps": [
+      "29 só tem divisores positivos 1 e 29. Os demais são divisíveis por 3."
+    ],
+    "whyCorrect": "29 só tem divisores positivos 1 e 29. Os demais são divisíveis por 3.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-FD1CA7BF",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Álgebra e equações",
+    "skill": "Sistemas de equações",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · Em uma cantina, 2 sucos e 1 sanduíche custam R$ 19, enquanto 1 suco e 2 sanduíches custam R$ 23. Se s é o preço do suco e a o preço do sanduíche, qual par resolve as duas condições ao mesmo tempo?",
+    "hint": "Transforme cada frase em uma equação e teste o par nas duas.",
+    "options": [
+      "(R$ 4, R$ 11)",
+      "(R$ 6, R$ 7)",
+      "(R$ 7, R$ 5)",
+      "(R$ 5, R$ 9)"
+    ],
+    "correctIndex": 3,
+    "correctText": "(R$ 5, R$ 9)",
+    "explanation": "O sistema é 2s+a=19 e s+2a=23. Subtraindo relações ou substituindo, obtém-se a=9 e s=5; o par precisa satisfazer as duas equações, não apenas uma.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36669,
+    "family": "rastro909:fd1ca7bffe8c290a",
+    "rootFamily": "rastro909:fd1ca7bffe8c290a",
+    "template": "rastro909:transfer:1ae07492c49e",
+    "patternFamily": "rastro909:transfer:1ae07492c49e",
+    "solutionSteps": [
+      "2s+a=19",
+      "s+2a=23",
+      "Resolva o sistema e confira nas duas equações."
+    ],
+    "whyCorrect": "O sistema é 2s+a=19 e s+2a=23. Subtraindo relações ou substituindo, obtém-se a=9 e s=5; o par precisa satisfazer as duas equações, não apenas uma.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-E4D10EA4",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Geometria",
+    "skill": "Geometria plana",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · Um jardim retangular mede 8 m por 5 m. Será colocada uma faixa de grama apenas ao longo de todo o contorno. Qual medida determina o comprimento total dessa faixa?",
+    "hint": "A pergunta fala do contorno, portanto pense em perímetro.",
+    "options": [
+      "26 m",
+      "40 m",
+      "13 m",
+      "21 m"
+    ],
+    "correctIndex": 0,
+    "correctText": "26 m",
+    "explanation": "Como a faixa percorre o contorno, calcula-se o perímetro: 2·(8+5)=26 m. Área mediria superfície, não comprimento de borda.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto",
+      "pedro_assad"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36670,
+    "family": "rastro909:e4d10ea4f38ea6ce",
+    "rootFamily": "rastro909:e4d10ea4f38ea6ce",
+    "template": "rastro909:transfer:358a79d37d44",
+    "patternFamily": "rastro909:transfer:358a79d37d44",
+    "solutionSteps": [
+      "P=2(a+b)=2(8+5)=26."
+    ],
+    "whyCorrect": "Como a faixa percorre o contorno, calcula-se o perímetro: 2·(8+5)=26 m. Área mediria superfície, não comprimento de borda.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-76B7C18F",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Números racionais",
+    "skill": "Frações e decimais",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · Uma receita usa 0,75 L de leite. Essa quantidade corresponde a qual fração irredutível de 1 litro?",
+    "hint": "Escreva o decimal sobre uma potência de 10 e simplifique.",
+    "options": [
+      "75/10",
+      "4/3",
+      "3/4",
+      "7/10"
+    ],
+    "correctIndex": 2,
+    "correctText": "3/4",
+    "explanation": "0,75=75/100. Simplificando numerador e denominador por 25, obtemos 3/4.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36671,
+    "family": "rastro909:76b7c18f087369d6",
+    "rootFamily": "rastro909:76b7c18f087369d6",
+    "template": "rastro909:transfer:b36d5a98e175",
+    "patternFamily": "rastro909:transfer:b36d5a98e175",
+    "solutionSteps": [
+      "0,75=75/100",
+      "75/100=3/4."
+    ],
+    "whyCorrect": "0,75=75/100. Simplificando numerador e denominador por 25, obtemos 3/4.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-CAE3F495",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Números racionais",
+    "skill": "Potenciação e radiciação",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · Um quadrado possui área de 196 cm². Qual é a medida de seu lado?",
+    "hint": "A área do quadrado é lado².",
+    "options": [
+      "28 cm",
+      "98 cm",
+      "14 cm",
+      "12 cm"
+    ],
+    "correctIndex": 2,
+    "correctText": "14 cm",
+    "explanation": "Se l²=196, então l=√196=14. Como medida de lado é positiva, usamos a raiz positiva.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36672,
+    "family": "rastro909:cae3f49501f42238",
+    "rootFamily": "rastro909:cae3f49501f42238",
+    "template": "rastro909:transfer:958c55096499",
+    "patternFamily": "rastro909:transfer:958c55096499",
+    "solutionSteps": [
+      "l²=196",
+      "l=√196=14."
+    ],
+    "whyCorrect": "Se l²=196, então l=√196=14. Como medida de lado é positiva, usamos a raiz positiva.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-28E10602",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Proporcionalidade e porcentagem",
+    "skill": "Porcentagem",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · Uma camiseta de R$ 80 recebeu desconto de 15%. Qual é o preço depois do desconto?",
+    "hint": "Calcule primeiro o valor do desconto e depois subtraia.",
+    "options": [
+      "R$ 68",
+      "R$ 65",
+      "R$ 72",
+      "R$ 92"
+    ],
+    "correctIndex": 0,
+    "correctText": "R$ 68",
+    "explanation": "15% de 80 é 0,15·80=12. Como é desconto, 80-12=68.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "boaro",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36673,
+    "family": "rastro909:28e1060222f9be8e",
+    "rootFamily": "rastro909:28e1060222f9be8e",
+    "template": "rastro909:transfer:15b3c0a3625e",
+    "patternFamily": "rastro909:transfer:15b3c0a3625e",
+    "solutionSteps": [
+      "0,15·80=12",
+      "80-12=68."
+    ],
+    "whyCorrect": "15% de 80 é 0,15·80=12. Como é desconto, 80-12=68.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-EA7B0FEB",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Geometria",
+    "skill": "Volume e geometria espacial",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · Uma caixa retangular mede 6 cm de comprimento, 4 cm de largura e 3 cm de altura. Qual é seu volume?",
+    "hint": "Volume de uma caixa retangular é o produto das três dimensões.",
+    "options": [
+      "24 cm³",
+      "144 cm³",
+      "72 cm³",
+      "13 cm³"
+    ],
+    "correctIndex": 2,
+    "correctText": "72 cm³",
+    "explanation": "Para um paralelepípedo, V=comprimento·larga·altura=6·4·3=72 cm³.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36685,
+    "family": "rastro909:ea7b0febb41725e9",
+    "rootFamily": "rastro909:ea7b0febb41725e9",
+    "template": "rastro909:transfer:66a4cfa266bf",
+    "patternFamily": "rastro909:transfer:66a4cfa266bf",
+    "solutionSteps": [
+      "V=6·4·3=72 cm³."
+    ],
+    "whyCorrect": "Para um paralelepípedo, V=comprimento·larga·altura=6·4·3=72 cm³.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-81F3A43C",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Probabilidade e estatística",
+    "skill": "Estatística",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · As quantidades de livros lidos por cinco estudantes foram 1, 2, 2, 4 e 11. Qual medida representa o valor central sem ser tão afetada pelo 11?",
+    "hint": "Quando existe um valor extremo, compare média e mediana.",
+    "options": [
+      "Média = 4",
+      "Moda = 11",
+      "Amplitude = 2",
+      "Mediana = 2"
+    ],
+    "correctIndex": 3,
+    "correctText": "Mediana = 2",
+    "explanation": "A mediana é o valor central da lista ordenada e resiste mais ao valor extremo 11. O terceiro valor é 2.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto",
+      "pedro_assad"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36686,
+    "family": "rastro909:81f3a43c4d30ebb6",
+    "rootFamily": "rastro909:81f3a43c4d30ebb6",
+    "template": "rastro909:transfer:6e9c01b10e38",
+    "patternFamily": "rastro909:transfer:6e9c01b10e38",
+    "solutionSteps": [
+      "Lista ordenada: 1,2,2,4,11",
+      "Valor central=2."
+    ],
+    "whyCorrect": "A mediana é o valor central da lista ordenada e resiste mais ao valor extremo 11. O terceiro valor é 2.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-A7F0F99F",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Probabilidade e estatística",
+    "skill": "Probabilidade",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · Uma urna contém 3 bolas azuis e 2 verdes, todas com a mesma chance de serem retiradas. Qual é a probabilidade de retirar uma bola verde em uma única retirada?",
+    "hint": "Probabilidade simples = casos favoráveis/casos possíveis.",
+    "options": [
+      "2/3",
+      "2/5",
+      "3/5",
+      "1/2"
+    ],
+    "correctIndex": 1,
+    "correctText": "2/5",
+    "explanation": "Há 2 resultados favoráveis entre 5 bolas igualmente prováveis: P=2/5.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto",
+      "pedro_assad"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36687,
+    "family": "rastro909:a7f0f99f5bd30c82",
+    "rootFamily": "rastro909:a7f0f99f5bd30c82",
+    "template": "rastro909:transfer:1a00f3c640bc",
+    "patternFamily": "rastro909:transfer:1a00f3c640bc",
+    "solutionSteps": [
+      "favoráveis=2",
+      "possíveis=5",
+      "P=2/5."
+    ],
+    "whyCorrect": "Há 2 resultados favoráveis entre 5 bolas igualmente prováveis: P=2/5.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-0EE7EC29",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Proporcionalidade e porcentagem",
+    "skill": "Escala e proporcionalidade",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · Em um mapa na escala 1:50 000, a distância entre dois pontos é 6 cm. Qual é a distância real?",
+    "hint": "Converta a escala para uma unidade prática antes de multiplicar.",
+    "options": [
+      "30 km",
+      "300 km",
+      "3 km",
+      "300 m"
+    ],
+    "correctIndex": 2,
+    "correctText": "3 km",
+    "explanation": "Cada 1 cm representa 50 000 cm=500 m. Assim, 6 cm representam 3000 m=3 km.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "boaro",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36688,
+    "family": "rastro909:0ee7ec2962410fa0",
+    "rootFamily": "rastro909:0ee7ec2962410fa0",
+    "template": "rastro909:transfer:13e9c0f6ef1f",
+    "patternFamily": "rastro909:transfer:13e9c0f6ef1f",
+    "solutionSteps": [
+      "1 cm -> 500 m",
+      "6 cm -> 3000 m = 3 km."
+    ],
+    "whyCorrect": "Cada 1 cm representa 50 000 cm=500 m. Assim, 6 cm representam 3000 m=3 km.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-28E43F23",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Geometria",
+    "skill": "Triângulos e ângulos",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Em um triângulo, um ângulo externo mede 125° e um dos ângulos internos não adjacentes mede 52°. Quanto mede o outro ângulo interno não adjacente?",
+    "hint": "Use a relação entre ângulo externo e os dois internos não adjacentes.",
+    "options": [
+      "73°",
+      "55°",
+      "63°",
+      "177°"
+    ],
+    "correctIndex": 0,
+    "correctText": "73°",
+    "explanation": "Um ângulo externo é igual à soma dos dois ângulos internos não adjacentes. Logo 125=52+x e x=73°.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36756,
+    "family": "rastro909:28e43f23c4e8aacd",
+    "rootFamily": "rastro909:28e43f23c4e8aacd",
+    "template": "rastro909:transfer:fe039c1c5d32",
+    "patternFamily": "rastro909:transfer:fe039c1c5d32",
+    "solutionSteps": [
+      "125=52+x",
+      "x=73°."
+    ],
+    "whyCorrect": "Um ângulo externo é igual à soma dos dois ângulos internos não adjacentes. Logo 125=52+x e x=73°.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-F328801E",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Números racionais",
+    "skill": "Operações com racionais",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · Calcule -2,5 + 3/4.",
+    "hint": "Converta os dois valores para a mesma forma e cuide dos sinais.",
+    "options": [
+      "1,75",
+      "-1,75",
+      "-3,25",
+      "-2,25"
+    ],
+    "correctIndex": 1,
+    "correctText": "-1,75",
+    "explanation": "3/4=0,75. Assim, -2,5+0,75=-1,75.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36757,
+    "family": "rastro909:f328801ef774bd7d",
+    "rootFamily": "rastro909:f328801ef774bd7d",
+    "template": "rastro909:transfer:eaa201b71ba2",
+    "patternFamily": "rastro909:transfer:eaa201b71ba2",
+    "solutionSteps": [
+      "3/4=0,75. Assim, -2,5+0,75=-1,75."
+    ],
+    "whyCorrect": "3/4=0,75. Assim, -2,5+0,75=-1,75.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-7-CA654DE7",
+    "subject": "Matemática",
+    "grade": 7,
+    "area": "Probabilidade e estatística",
+    "skill": "Leitura crítica de gráficos",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "7º ano · Um gráfico mostra vendas de 100 e 105 unidades, mas o eixo vertical começa em 99. Qual interpretação é mais cuidadosa?",
+    "hint": "Leia os números do eixo antes de comparar apenas as alturas.",
+    "options": [
+      "A diferença é 105 unidades",
+      "O gráfico prova crescimento de 500%",
+      "A diferença real é 5 unidades; o eixo truncado pode fazê-la parecer muito maior",
+      "As vendas mais que dobraram"
+    ],
+    "correctIndex": 2,
+    "correctText": "A diferença real é 5 unidades; o eixo truncado pode fazê-la parecer muito maior",
+    "explanation": "A leitura deve considerar os valores e a escala. Começar o eixo perto dos dados amplia visualmente pequenas diferenças.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36758,
+    "family": "rastro909:ca654de70f72360b",
+    "rootFamily": "rastro909:ca654de70f72360b",
+    "template": "rastro909:transfer:e27729943c63",
+    "patternFamily": "rastro909:transfer:e27729943c63",
+    "solutionSteps": [
+      "A leitura deve considerar os valores e a escala. Começar o eixo perto dos dados amplia visualmente pequenas diferenças."
+    ],
+    "whyCorrect": "A leitura deve considerar os valores e a escala. Começar o eixo perto dos dados amplia visualmente pequenas diferenças.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-811A991C",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Geometria e medidas",
+    "skill": "Geometria plana",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Um jardim retangular mede 12 m por 7 m. Será colocada uma faixa de grama apenas ao longo de todo o contorno. Qual medida determina o comprimento total dessa faixa?",
+    "hint": "A pergunta fala do contorno, portanto pense em perímetro.",
+    "options": [
+      "84 m",
+      "19 m",
+      "31 m",
+      "38 m"
+    ],
+    "correctIndex": 3,
+    "correctText": "38 m",
+    "explanation": "Como a faixa percorre o contorno, calcula-se o perímetro: 2·(12+7)=38 m. Área mediria superfície, não comprimento de borda.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36674,
+    "family": "rastro909:811a991c9c55f97c",
+    "rootFamily": "rastro909:811a991c9c55f97c",
+    "template": "rastro909:transfer:b76cf43b0684",
+    "patternFamily": "rastro909:transfer:b76cf43b0684",
+    "solutionSteps": [
+      "P=2(a+b)=2(12+7)=38."
+    ],
+    "whyCorrect": "Como a faixa percorre o contorno, calcula-se o perímetro: 2·(12+7)=38 m. Área mediria superfície, não comprimento de borda.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-6562005A",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Números e notação científica",
+    "skill": "Frações e decimais",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Um reservatório estava com 5/8 da capacidade e recebeu mais 0,125 da capacidade total. Que fração da capacidade ficou ocupada?",
+    "hint": "Converta o decimal em fração antes de somar.",
+    "options": [
+      "5/8",
+      "7/8",
+      "1/2",
+      "3/4"
+    ],
+    "correctIndex": 3,
+    "correctText": "3/4",
+    "explanation": "0,125=1/8. Logo, 5/8+1/8=6/8=3/4.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36675,
+    "family": "rastro909:6562005ae6901099",
+    "rootFamily": "rastro909:6562005ae6901099",
+    "template": "rastro909:transfer:9b253937f293",
+    "patternFamily": "rastro909:transfer:9b253937f293",
+    "solutionSteps": [
+      "0,125=1/8",
+      "5/8+1/8=6/8=3/4."
+    ],
+    "whyCorrect": "0,125=1/8. Logo, 5/8+1/8=6/8=3/4.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-6DFE27AD",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Números e notação científica",
+    "skill": "Potenciação e radiciação",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Qual expressão tem exatamente o mesmo valor que 2³·2⁴?",
+    "hint": "As bases são iguais; observe o que acontece com os expoentes.",
+    "options": [
+      "4⁷",
+      "2¹²",
+      "2¹",
+      "2⁷"
+    ],
+    "correctIndex": 3,
+    "correctText": "2⁷",
+    "explanation": "Na multiplicação de potências de mesma base, somam-se os expoentes: 2³·2⁴=2^(3+4)=2⁷.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36676,
+    "family": "rastro909:6dfe27adc93fd31a",
+    "rootFamily": "rastro909:6dfe27adc93fd31a",
+    "template": "rastro909:transfer:6d5396fef4cd",
+    "patternFamily": "rastro909:transfer:6d5396fef4cd",
+    "solutionSteps": [
+      "2³·2⁴=2^(3+4)=2⁷."
+    ],
+    "whyCorrect": "Na multiplicação de potências de mesma base, somam-se os expoentes: 2³·2⁴=2^(3+4)=2⁷.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-290547CE",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Proporcionalidade e funções",
+    "skill": "Porcentagem",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Um produto custava R$ 250 e passou a custar R$ 290. Qual foi o aumento percentual em relação ao preço original?",
+    "hint": "Compare a variação com o valor inicial.",
+    "options": [
+      "14%",
+      "40%",
+      "116%",
+      "16%"
+    ],
+    "correctIndex": 3,
+    "correctText": "16%",
+    "explanation": "O aumento foi 40. A taxa é 40/250=0,16=16%. O denominador deve ser o preço original.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto",
+      "pedro_assad",
+      "boaro"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36677,
+    "family": "rastro909:290547cebc29cd51",
+    "rootFamily": "rastro909:290547cebc29cd51",
+    "template": "rastro909:transfer:abdb5a6c0ffb",
+    "patternFamily": "rastro909:transfer:abdb5a6c0ffb",
+    "solutionSteps": [
+      "290-250=40",
+      "40/250=0,16=16%."
+    ],
+    "whyCorrect": "O aumento foi 40. A taxa é 40/250=0,16=16%. O denominador deve ser o preço original.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-B8B7BAD8",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Proporcionalidade e funções",
+    "skill": "Razão e proporção",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Uma tinta é preparada na razão 2 partes de pigmento para 5 partes de base. Se forem usados 20 mL de pigmento mantendo a proporção, quantos mL de base são necessários?",
+    "hint": "Mantenha o mesmo fator nas duas grandezas.",
+    "options": [
+      "50 mL",
+      "40 mL",
+      "25 mL",
+      "70 mL"
+    ],
+    "correctIndex": 0,
+    "correctText": "50 mL",
+    "explanation": "De 2 para 20 o fator é 10; a base também deve ser multiplicada por 10: 5·10=50 mL.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36678,
+    "family": "rastro909:b8b7bad89758b43c",
+    "rootFamily": "rastro909:b8b7bad89758b43c",
+    "template": "rastro909:transfer:2fb81ea4117e",
+    "patternFamily": "rastro909:transfer:2fb81ea4117e",
+    "solutionSteps": [
+      "20/2=10",
+      "5·10=50."
+    ],
+    "whyCorrect": "De 2 para 20 o fator é 10; a base também deve ser multiplicada por 10: 5·10=50 mL.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-D1BD214E",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Geometria e medidas",
+    "skill": "Congruência e transformações",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Um triângulo é girado 90° em torno de um ponto, sem deformação. Qual propriedade permite afirmar que a imagem é congruente ao original?",
+    "hint": "Pergunte o que uma rotação rígida mantém inalterado.",
+    "options": [
+      "A área sempre dobra",
+      "Todos os vértices passam a ter a mesma coordenada",
+      "O perímetro é trocado pela área",
+      "As distâncias e os ângulos são preservados pela rotação"
+    ],
+    "correctIndex": 3,
+    "correctText": "As distâncias e os ângulos são preservados pela rotação",
+    "explanation": "Rotações são isometrias: preservam comprimentos e ângulos, portanto preservam forma e tamanho.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36689,
+    "family": "rastro909:d1bd214e8fb90e35",
+    "rootFamily": "rastro909:d1bd214e8fb90e35",
+    "template": "rastro909:transfer:7749154f0231",
+    "patternFamily": "rastro909:transfer:7749154f0231",
+    "solutionSteps": [
+      "Rotações são isometrias: preservam comprimentos e ângulos, portanto preservam forma e tamanho."
+    ],
+    "whyCorrect": "Rotações são isometrias: preservam comprimentos e ângulos, portanto preservam forma e tamanho.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-0AE81DAB",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Geometria e medidas",
+    "skill": "Volume e geometria espacial",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Um aquário em forma de paralelepípedo tem base de 40 cm por 25 cm e altura de 30 cm. Qual volume interno ele possui?",
+    "hint": "Multiplique área da base pela altura.",
+    "options": [
+      "95 cm³",
+      "120 000 cm³",
+      "30 000 cm³",
+      "3 000 cm³"
+    ],
+    "correctIndex": 2,
+    "correctText": "30 000 cm³",
+    "explanation": "V=40·25·30=30 000 cm³. Somar dimensões não calcula volume.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36690,
+    "family": "rastro909:0ae81dab69fb53cf",
+    "rootFamily": "rastro909:0ae81dab69fb53cf",
+    "template": "rastro909:transfer:0ffde04a1372",
+    "patternFamily": "rastro909:transfer:0ffde04a1372",
+    "solutionSteps": [
+      "Ab=40·25=1000",
+      "V=1000·30=30000 cm³."
+    ],
+    "whyCorrect": "V=40·25·30=30 000 cm³. Somar dimensões não calcula volume.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-9E5768A0",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Probabilidade e estatística",
+    "skill": "Probabilidade",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Uma urna contém 3 bolas azuis e 2 verdes, todas com a mesma chance de serem retiradas. Qual é a probabilidade de retirar uma bola verde em uma única retirada?",
+    "hint": "Probabilidade simples = casos favoráveis/casos possíveis.",
+    "options": [
+      "1/2",
+      "2/3",
+      "2/5",
+      "3/5"
+    ],
+    "correctIndex": 2,
+    "correctText": "2/5",
+    "explanation": "Há 2 resultados favoráveis entre 5 bolas igualmente prováveis: P=2/5.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36691,
+    "family": "rastro909:9e5768a0e4d36d54",
+    "rootFamily": "rastro909:9e5768a0e4d36d54",
+    "template": "rastro909:transfer:a45c5883baa0",
+    "patternFamily": "rastro909:transfer:a45c5883baa0",
+    "solutionSteps": [
+      "favoráveis=2",
+      "possíveis=5",
+      "P=2/5."
+    ],
+    "whyCorrect": "Há 2 resultados favoráveis entre 5 bolas igualmente prováveis: P=2/5.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-45A0C89B",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Números e notação científica",
+    "skill": "Notação científica",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Escreva 0,000072 em notação científica.",
+    "hint": "O coeficiente deve ficar entre 1 e 10.",
+    "options": [
+      "72×10⁻⁵",
+      "7,2×10⁵",
+      "0,72×10⁻⁴",
+      "7,2×10⁻⁵"
+    ],
+    "correctIndex": 3,
+    "correctText": "7,2×10⁻⁵",
+    "explanation": "Movemos a vírgula 5 casas para a direita para obter 7,2; por isso o expoente é -5.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36759,
+    "family": "rastro909:45a0c89bbef89d62",
+    "rootFamily": "rastro909:45a0c89bbef89d62",
+    "template": "rastro909:transfer:8853bc0e947c",
+    "patternFamily": "rastro909:transfer:8853bc0e947c",
+    "solutionSteps": [
+      "Movemos a vírgula 5 casas para a direita para obter 7,2; por isso o expoente é -5."
+    ],
+    "whyCorrect": "Movemos a vírgula 5 casas para a direita para obter 7,2; por isso o expoente é -5.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-BF2EB9EE",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Probabilidade e estatística",
+    "skill": "Média, mediana e moda",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Os tempos, em minutos, foram 10, 12, 12, 13 e 18. Qual é a média?",
+    "hint": "Some todos os valores e divida pela quantidade.",
+    "options": [
+      "15 minutos",
+      "13 minutos",
+      "12 minutos",
+      "13,5 minutos"
+    ],
+    "correctIndex": 1,
+    "correctText": "13 minutos",
+    "explanation": "A soma é 65 e há 5 valores. 65/5=13.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36760,
+    "family": "rastro909:bf2eb9ee4c3c15f2",
+    "rootFamily": "rastro909:bf2eb9ee4c3c15f2",
+    "template": "rastro909:transfer:fc54ad227bab",
+    "patternFamily": "rastro909:transfer:fc54ad227bab",
+    "solutionSteps": [
+      "10+12+12+13+18=65",
+      "65/5=13."
+    ],
+    "whyCorrect": "A soma é 65 e há 5 valores. 65/5=13.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-8-F8191E25",
+    "subject": "Matemática",
+    "grade": 8,
+    "area": "Probabilidade e estatística",
+    "skill": "Princípio multiplicativo",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "8º ano · Uma pessoa pode escolher 3 camisetas e 4 calças. Quantos conjuntos diferentes de uma camiseta e uma calça podem ser formados?",
+    "hint": "Quando decisões independentes acontecem em sequência, multiplique as quantidades.",
+    "options": [
+      "12",
+      "7",
+      "16",
+      "24"
+    ],
+    "correctIndex": 0,
+    "correctText": "12",
+    "explanation": "Para cada uma das 3 camisetas existem 4 escolhas de calça: 3·4=12.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36761,
+    "family": "rastro909:f8191e25336212d9",
+    "rootFamily": "rastro909:f8191e25336212d9",
+    "template": "rastro909:transfer:372c3bc36316",
+    "patternFamily": "rastro909:transfer:372c3bc36316",
+    "solutionSteps": [
+      "Para cada uma das 3 camisetas existem 4 escolhas de calça: 3·4=12."
+    ],
+    "whyCorrect": "Para cada uma das 3 camisetas existem 4 escolhas de calça: 3·4=12.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-B05E29E7",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Álgebra e fatoração",
+    "skill": "Expressões algébricas",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Simplifique 3(2x-1)-2(x+4).",
+    "hint": "Aplique a distributiva antes de juntar termos semelhantes.",
+    "options": [
+      "4x-11",
+      "4x+5",
+      "8x-11",
+      "4x-5"
+    ],
+    "correctIndex": 0,
+    "correctText": "4x-11",
+    "explanation": "Distribuindo: 6x-3-2x-8. Somando termos semelhantes: 4x-11.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "boaro",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36679,
+    "family": "rastro909:b05e29e724fb102f",
+    "rootFamily": "rastro909:b05e29e724fb102f",
+    "template": "rastro909:transfer:d8b4f167c73c",
+    "patternFamily": "rastro909:transfer:d8b4f167c73c",
+    "solutionSteps": [
+      "3(2x-1)=6x-3",
+      "-2(x+4)=-2x-8",
+      "6x-3-2x-8=4x-11."
+    ],
+    "whyCorrect": "Distribuindo: 6x-3-2x-8. Somando termos semelhantes: 4x-11.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-1B3424AA",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Álgebra e fatoração",
+    "skill": "Sistemas de equações",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Duas retas são descritas por y=2x+1 e y=-x+7. O ponto de interseção representa a solução do sistema. Qual é esse ponto?",
+    "hint": "Iguale as duas expressões de y.",
+    "options": [
+      "(2, 3)",
+      "(2, 5)",
+      "(1, 3)",
+      "(3, 4)"
+    ],
+    "correctIndex": 1,
+    "correctText": "(2, 5)",
+    "explanation": "No ponto comum, as expressões de y são iguais: 2x+1=-x+7, então 3x=6 e x=2. Substituindo, y=5.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "pedro_assad",
+      "boaro"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36680,
+    "family": "rastro909:1b3424aa983f3a66",
+    "rootFamily": "rastro909:1b3424aa983f3a66",
+    "template": "rastro909:transfer:9be0088ace7c",
+    "patternFamily": "rastro909:transfer:9be0088ace7c",
+    "solutionSteps": [
+      "2x+1=-x+7",
+      "3x=6",
+      "x=2 e y=5."
+    ],
+    "whyCorrect": "No ponto comum, as expressões de y são iguais: 2x+1=-x+7, então 3x=6 e x=2. Substituindo, y=5.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-4A8F477E",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Funções, razão e porcentagem",
+    "skill": "Função afim",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Uma corrida de aplicativo cobra R$ 6 de taxa fixa mais R$ 2 por quilômetro. Se x é a distância em quilômetros, qual função representa o preço P?",
+    "hint": "Separe a parcela fixa da parcela que depende de x.",
+    "options": [
+      "P(x)=2x",
+      "P(x)=8x",
+      "P(x)=2x+6",
+      "P(x)=6x+2"
+    ],
+    "correctIndex": 2,
+    "correctText": "P(x)=2x+6",
+    "explanation": "A parte variável é 2x e a taxa fixa é 6; por isso P(x)=2x+6.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto",
+      "pedro_assad"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36681,
+    "family": "rastro909:4a8f477e9342e398",
+    "rootFamily": "rastro909:4a8f477e9342e398",
+    "template": "rastro909:transfer:21a53041c232",
+    "patternFamily": "rastro909:transfer:21a53041c232",
+    "solutionSteps": [
+      "variável: 2x",
+      "fixa: 6",
+      "P(x)=2x+6."
+    ],
+    "whyCorrect": "A parte variável é 2x e a taxa fixa é 6; por isso P(x)=2x+6.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-515A14DA",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Funções, razão e porcentagem",
+    "skill": "Razão e proporção",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Em uma maquete, 3 cm representam 12 m reais. Mantendo a mesma razão, 7,5 cm representam quantos metros?",
+    "hint": "Descubra primeiro quanto 1 cm representa.",
+    "options": [
+      "22,5 m",
+      "27 m",
+      "90 m",
+      "30 m"
+    ],
+    "correctIndex": 3,
+    "correctText": "30 m",
+    "explanation": "12/3=4 m por centímetro. Então 7,5·4=30 m.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto",
+      "pedro_assad",
+      "boaro"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36682,
+    "family": "rastro909:515a14da9404292a",
+    "rootFamily": "rastro909:515a14da9404292a",
+    "template": "rastro909:transfer:9534114acbcc",
+    "patternFamily": "rastro909:transfer:9534114acbcc",
+    "solutionSteps": [
+      "12/3=4",
+      "7,5·4=30."
+    ],
+    "whyCorrect": "12/3=4 m por centímetro. Então 7,5·4=30 m.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-E1B6DD13",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Geometria e medidas",
+    "skill": "Geometria plana",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Um jardim retangular mede 15 m por 8 m. Será colocada uma faixa de grama apenas ao longo de todo o contorno. Qual medida determina o comprimento total dessa faixa?",
+    "hint": "A pergunta fala do contorno, portanto pense em perímetro.",
+    "options": [
+      "120 m",
+      "23 m",
+      "38 m",
+      "46 m"
+    ],
+    "correctIndex": 3,
+    "correctText": "46 m",
+    "explanation": "Como a faixa percorre o contorno, calcula-se o perímetro: 2·(15+8)=46 m. Área mediria superfície, não comprimento de borda.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36683,
+    "family": "rastro909:e1b6dd1380dc1269",
+    "rootFamily": "rastro909:e1b6dd1380dc1269",
+    "template": "rastro909:transfer:68b70a6c8a6c",
+    "patternFamily": "rastro909:transfer:68b70a6c8a6c",
+    "solutionSteps": [
+      "P=2(a+b)=2(15+8)=46."
+    ],
+    "whyCorrect": "Como a faixa percorre o contorno, calcula-se o perímetro: 2·(15+8)=46 m. Área mediria superfície, não comprimento de borda.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-233A5609",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Números reais",
+    "skill": "Potenciação e radiciação",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Sem calculadora, simplifique √72 usando um quadrado perfeito como fator.",
+    "hint": "Procure o maior quadrado perfeito que divide 72.",
+    "options": [
+      "36√2",
+      "6√2",
+      "8√2",
+      "3√8"
+    ],
+    "correctIndex": 1,
+    "correctText": "6√2",
+    "explanation": "72=36·2. Assim, √72=√36·√2=6√2.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36684,
+    "family": "rastro909:233a5609b413c93a",
+    "rootFamily": "rastro909:233a5609b413c93a",
+    "template": "rastro909:transfer:eb4b7d006cd0",
+    "patternFamily": "rastro909:transfer:eb4b7d006cd0",
+    "solutionSteps": [
+      "72=36·2",
+      "√72=6√2."
+    ],
+    "whyCorrect": "72=36·2. Assim, √72=√36·√2=6√2.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-0A97FC8E",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Geometria e medidas",
+    "skill": "Semelhança e escala",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Dois triângulos semelhantes têm lados correspondentes na razão 2:5. Se um lado do menor mede 8 cm, quanto mede o lado correspondente do maior?",
+    "hint": "Use a mesma razão entre lados correspondentes.",
+    "options": [
+      "13 cm",
+      "40 cm",
+      "20 cm",
+      "10 cm"
+    ],
+    "correctIndex": 2,
+    "correctText": "20 cm",
+    "explanation": "O fator do menor para o maior é 5/2. Então 8·5/2=20 cm.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36692,
+    "family": "rastro909:0a97fc8e96fea60e",
+    "rootFamily": "rastro909:0a97fc8e96fea60e",
+    "template": "rastro909:transfer:947cc064b2e7",
+    "patternFamily": "rastro909:transfer:947cc064b2e7",
+    "solutionSteps": [
+      "fator=5/2",
+      "8·5/2=20."
+    ],
+    "whyCorrect": "O fator do menor para o maior é 5/2. Então 8·5/2=20 cm.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-A56BBCA6",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Geometria e medidas",
+    "skill": "Volume de prismas e cilindros",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Um cilindro tem raio 3 cm e altura 10 cm. Usando π≈3,14, qual é o volume aproximado?",
+    "hint": "Use V=πr²h; o raio precisa ser elevado ao quadrado.",
+    "options": [
+      "94,2 cm³",
+      "188,4 cm³",
+      "565,2 cm³",
+      "282,6 cm³"
+    ],
+    "correctIndex": 3,
+    "correctText": "282,6 cm³",
+    "explanation": "O volume do cilindro é V=πr²h. Substituindo r=3 cm, h=10 cm e π≈3,14: V=3,14·9·10=282,6 cm³; o raio precisa ser elevado ao quadrado.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36693,
+    "family": "rastro909:a56bbca682db0885",
+    "rootFamily": "rastro909:a56bbca682db0885",
+    "template": "rastro909:transfer:0f9626a83e9b",
+    "patternFamily": "rastro909:transfer:0f9626a83e9b",
+    "solutionSteps": [
+      "r²=9",
+      "V=3,14·9·10=282,6."
+    ],
+    "whyCorrect": "O volume do cilindro é V=πr²h. Substituindo r=3 cm, h=10 cm e π≈3,14: V=3,14·9·10=282,6 cm³; o raio precisa ser elevado ao quadrado.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-16B32FF3",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Probabilidade e estatística",
+    "skill": "Estatística",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Duas turmas têm média 7. Na turma A, as notas ficam quase todas entre 6,5 e 7,5; na B, variam de 2 a 10. Qual afirmação é correta?",
+    "hint": "Média descreve centro; dispersão descreve espalhamento.",
+    "options": [
+      "A turma A tem maior dispersão",
+      "Não é possível comparar qualquer aspecto",
+      "A turma B tem maior dispersão",
+      "As duas têm a mesma dispersão porque a média é igual"
+    ],
+    "correctIndex": 2,
+    "correctText": "A turma B tem maior dispersão",
+    "explanation": "A média igual não implica mesma distribuição. A turma B apresenta valores muito mais afastados entre si e, portanto, maior dispersão.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "umberto"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36694,
+    "family": "rastro909:16b32ff3dbb5dfa5",
+    "rootFamily": "rastro909:16b32ff3dbb5dfa5",
+    "template": "rastro909:transfer:2a677abdf7b6",
+    "patternFamily": "rastro909:transfer:2a677abdf7b6",
+    "solutionSteps": [
+      "A média igual não implica mesma distribuição. A turma B apresenta valores muito mais afastados entre si e, portanto, maior dispersão."
+    ],
+    "whyCorrect": "A média igual não implica mesma distribuição. A turma B apresenta valores muito mais afastados entre si e, portanto, maior dispersão.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-2A6FE4B8",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Probabilidade e estatística",
+    "skill": "Probabilidade",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Um dado honesto é lançado uma vez. Qual é a probabilidade de sair um número maior que 4?",
+    "hint": "Liste os resultados favoráveis dentro de {1,2,3,4,5,6}.",
+    "options": [
+      "1/2",
+      "2/3",
+      "1/3",
+      "1/6"
+    ],
+    "correctIndex": 2,
+    "correctText": "1/3",
+    "explanation": "Os resultados favoráveis são 5 e 6: 2 de 6. Logo, 2/6=1/3.",
+    "references": [
+      "khan",
+      "sandro_curio",
+      "gis_com_giz",
+      "geogebra",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36695,
+    "family": "rastro909:2a6fe4b889baa476",
+    "rootFamily": "rastro909:2a6fe4b889baa476",
+    "template": "rastro909:transfer:8c48ec6ff402",
+    "patternFamily": "rastro909:transfer:8c48ec6ff402",
+    "solutionSteps": [
+      "favoráveis={5,6}",
+      "2/6=1/3."
+    ],
+    "whyCorrect": "Os resultados favoráveis são 5 e 6: 2 de 6. Logo, 2/6=1/3.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-5B36784E",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Álgebra e fatoração",
+    "skill": "Produtos notáveis e fatoração",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "A área de um retângulo é representada por x²+5x+6. Se um dos lados mede x+2, qual expressão representa o outro lado?",
+    "hint": "Procure dois números cujo produto seja 6 e cuja soma seja 5.",
+    "options": [
+      "x-3",
+      "x²+3",
+      "x+3",
+      "x+6"
+    ],
+    "correctIndex": 2,
+    "correctText": "x+3",
+    "explanation": "Fatorando o trinômio, x²+5x+6=(x+2)(x+3). Como um lado já é x+2, o outro fator — e portanto o outro lado — é x+3.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36762,
+    "family": "rastro909:5b36784ec61fb36e",
+    "rootFamily": "rastro909:5b36784ec61fb36e",
+    "template": "rastro909:transfer:137aa432d226",
+    "patternFamily": "rastro909:transfer:137aa432d226",
+    "solutionSteps": [
+      "É uma diferença de quadrados: x²-3²=(x-3)(x+3)."
+    ],
+    "whyCorrect": "Fatorando o trinômio, x²+5x+6=(x+2)(x+3). Como um lado já é x+2, o outro fator — e portanto o outro lado — é x+3.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-B2C90280",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Geometria e medidas",
+    "skill": "Circunferência e círculo",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Uma circunferência tem raio 5 cm. Usando π≈3,14, qual é seu comprimento?",
+    "hint": "Comprimento da circunferência usa 2πr.",
+    "options": [
+      "25 cm",
+      "78,5 cm",
+      "31,4 cm",
+      "15,7 cm"
+    ],
+    "correctIndex": 2,
+    "correctText": "31,4 cm",
+    "explanation": "O comprimento da circunferência é C=2πr. Com r=5 cm e π≈3,14, temos C=2·3,14·5=31,4 cm; não se usa a fórmula de área.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36763,
+    "family": "rastro909:b2c90280f8af5931",
+    "rootFamily": "rastro909:b2c90280f8af5931",
+    "template": "rastro909:transfer:4d5f439f49bb",
+    "patternFamily": "rastro909:transfer:4d5f439f49bb",
+    "solutionSteps": [
+      "C=2πr=2·3,14·5=31,4 cm."
+    ],
+    "whyCorrect": "O comprimento da circunferência é C=2πr. Com r=5 cm e π≈3,14, temos C=2·3,14·5=31,4 cm; não se usa a fórmula de área.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": true,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-90D4957C",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Geometria e medidas",
+    "skill": "Geometria analítica básica",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Os pontos A(2,1) e B(2,7) formam um segmento vertical. Qual é seu comprimento?",
+    "hint": "Para segmento vertical, compare apenas as coordenadas y.",
+    "options": [
+      "6",
+      "2",
+      "8",
+      "14"
+    ],
+    "correctIndex": 0,
+    "correctText": "6",
+    "explanation": "Como x é igual nos dois pontos, basta a diferença vertical: |7-1|=6.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36764,
+    "family": "rastro909:90d4957c610272f1",
+    "rootFamily": "rastro909:90d4957c610272f1",
+    "template": "rastro909:transfer:9b0731aaa872",
+    "patternFamily": "rastro909:transfer:9b0731aaa872",
+    "solutionSteps": [
+      "Como x é igual nos dois pontos, basta a diferença vertical: |7-1|=6."
+    ],
+    "whyCorrect": "Como x é igual nos dois pontos, basta a diferença vertical: |7-1|=6.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-8FB98CB7",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Probabilidade e estatística",
+    "skill": "Análise crítica de gráficos",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Um gráfico de barras compara valores 98 e 100, mas o eixo vertical começa em 97. As barras parecem ter alturas muito diferentes. Qual cuidado é necessário?",
+    "hint": "Observe onde o eixo começa e qual intervalo cada marca representa.",
+    "options": [
+      "Assumir que todo eixo deve começar em 97",
+      "Verificar a escala do eixo, pois o corte pode exagerar visualmente uma diferença pequena",
+      "Concluir que 100 é o dobro de 98",
+      "Ignorar os valores e olhar apenas o tamanho das barras"
+    ],
+    "correctIndex": 1,
+    "correctText": "Verificar a escala do eixo, pois o corte pode exagerar visualmente uma diferença pequena",
+    "explanation": "O intervalo truncado amplia visualmente a diferença de 2 unidades. A leitura crítica considera valores, origem e escala dos eixos.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36765,
+    "family": "rastro909:8fb98cb76c13de5a",
+    "rootFamily": "rastro909:8fb98cb76c13de5a",
+    "template": "rastro909:transfer:9dafa83c4090",
+    "patternFamily": "rastro909:transfer:9dafa83c4090",
+    "solutionSteps": [
+      "O intervalo truncado amplia visualmente a diferença de 2 unidades. A leitura crítica considera valores, origem e escala dos eixos."
+    ],
+    "whyCorrect": "O intervalo truncado amplia visualmente a diferença de 2 unidades. A leitura crítica considera valores, origem e escala dos eixos.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-MATEM-9-523C1DD7",
+    "subject": "Matemática",
+    "grade": 9,
+    "area": "Probabilidade e estatística",
+    "skill": "Eventos dependentes e independentes",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "9º ano · Uma moeda é lançada duas vezes. O resultado do primeiro lançamento altera a probabilidade de cara no segundo?",
+    "hint": "Pergunte se o primeiro evento muda o espaço de possibilidades do segundo.",
+    "options": [
+      "Sim; a probabilidade vira 1/4 no segundo",
+      "Não; porque a moeda deixa de ter dois resultados",
+      "Não; os lançamentos são independentes",
+      "Sim; cara primeiro impede cara depois"
+    ],
+    "correctIndex": 2,
+    "correctText": "Não; os lançamentos são independentes",
+    "explanation": "Em lançamentos separados de uma moeda honesta, o segundo resultado não depende do primeiro; P(cara)=1/2 em cada lançamento.",
+    "references": [
+      "bncc_mec",
+      "khan",
+      "obmep_banco"
+    ],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36766,
+    "family": "rastro909:523c1dd747a41b25",
+    "rootFamily": "rastro909:523c1dd747a41b25",
+    "template": "rastro909:transfer:ffe39192e5b5",
+    "patternFamily": "rastro909:transfer:ffe39192e5b5",
+    "solutionSteps": [
+      "Em lançamentos separados de uma moeda honesta, o segundo resultado não depende do primeiro; P(cara)=1/2 em cada lançamento."
+    ],
+    "whyCorrect": "Em lançamentos separados de uma moeda honesta, o segundo resultado não depende do primeiro; P(cara)=1/2 em cada lançamento.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-METOD-10-3B6C8A90",
+    "subject": "Metodologia Científica",
+    "grade": 10,
+    "area": "Problema de pesquisa",
+    "skill": "Problema de pesquisa",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Qual opção é um problema de pesquisa investigável, e não apenas um tema amplo?",
+    "hint": "Verifique delimitação, observabilidade e viabilidade.",
+    "options": [
+      "A internet é ruim?",
+      "Como o tempo diário de uso de telas se relaciona com a duração do sono entre estudantes do 1º ano desta escola?",
+      "Tecnologia",
+      "Sono dos jovens"
+    ],
+    "correctIndex": 1,
+    "correctText": "Como o tempo diário de uso de telas se relaciona com a duração do sono entre estudantes do 1º ano desta escola?",
+    "explanation": "Um problema de pesquisa delimita fenômeno, população e relação observável; “tecnologia” e “sono” são apenas temas, e uma pergunta valorativa vaga não define investigação.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36767,
+    "family": "rastro909:3b6c8a90cae8f5f6",
+    "rootFamily": "rastro909:3b6c8a90cae8f5f6",
+    "template": "rastro909:transfer:3c36fbc24425",
+    "patternFamily": "rastro909:transfer:3c36fbc24425",
+    "solutionSteps": [
+      "Um problema de pesquisa delimita fenômeno, população e relação observável; “tecnologia” e “sono” são apenas temas, e uma pergunta valorativa vaga não define investigação."
+    ],
+    "whyCorrect": "Um problema de pesquisa delimita fenômeno, população e relação observável; “tecnologia” e “sono” são apenas temas, e uma pergunta valorativa vaga não define investigação.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-METOD-11-5DAFAF6F",
+    "subject": "Metodologia Científica",
+    "grade": 11,
+    "area": "Problema de pesquisa",
+    "skill": "Problema de pesquisa",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Um grupo quer estudar alimentação escolar. Qual pergunta delimita melhor um problema de pesquisa?",
+    "hint": "Verifique delimitação, observabilidade e viabilidade.",
+    "options": [
+      "Alimentação é importante?",
+      "Merenda escolar",
+      "Por que toda comida deveria ser melhor?",
+      "Qual relação existe entre frequência de consumo da merenda e percepção de saciedade entre alunos do 2º ano durante um mês?"
+    ],
+    "correctIndex": 3,
+    "correctText": "Qual relação existe entre frequência de consumo da merenda e percepção de saciedade entre alunos do 2º ano durante um mês?",
+    "explanation": "A pergunta delimita variáveis, população e período, permitindo coleta de dados e análise.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36768,
+    "family": "rastro909:5dafaf6f9939b295",
+    "rootFamily": "rastro909:5dafaf6f9939b295",
+    "template": "rastro909:transfer:a4ddb7b35191",
+    "patternFamily": "rastro909:transfer:a4ddb7b35191",
+    "solutionSteps": [
+      "A pergunta delimita variáveis, população e período, permitindo coleta de dados e análise."
+    ],
+    "whyCorrect": "A pergunta delimita variáveis, população e período, permitindo coleta de dados e análise.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-METOD-12-6750203A",
+    "subject": "Metodologia Científica",
+    "grade": 12,
+    "area": "Problema de pesquisa",
+    "skill": "Problema de pesquisa",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Qual problema de pesquisa é mais adequado para um projeto que dispõe apenas de questionários e dados escolares, sem exames médicos?",
+    "hint": "Verifique delimitação, observabilidade e viabilidade.",
+    "options": [
+      "Como curar todas as dificuldades de aprendizagem?",
+      "Há associação entre horas declaradas de estudo semanal e frequência escolar dos concluintes?",
+      "Qual é a causa biológica exata da ansiedade de cada estudante?",
+      "Educação brasileira"
+    ],
+    "correctIndex": 1,
+    "correctText": "Há associação entre horas declaradas de estudo semanal e frequência escolar dos concluintes?",
+    "explanation": "O problema deve ser compatível com métodos, dados e recursos disponíveis; a associação entre estudo e frequência pode ser investigada com registros e questionários.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36769,
+    "family": "rastro909:6750203a6c47ae8e",
+    "rootFamily": "rastro909:6750203a6c47ae8e",
+    "template": "rastro909:transfer:72476a6c5b8b",
+    "patternFamily": "rastro909:transfer:72476a6c5b8b",
+    "solutionSteps": [
+      "O problema deve ser compatível com métodos, dados e recursos disponíveis; a associação entre estudo e frequência pode ser investigada com registros e questionários."
+    ],
+    "whyCorrect": "O problema deve ser compatível com métodos, dados e recursos disponíveis; a associação entre estudo e frequência pode ser investigada com registros e questionários.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-PROJE-10-6BF63A1D",
+    "subject": "Projeto de Vida",
+    "grade": 10,
+    "area": "Autoconhecimento",
+    "skill": "Autoconhecimento",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Uma estudante percebe que gosta de explicar ideias, prefere trabalhar em pequenos grupos e se sente motivada quando vê progresso de outras pessoas. Qual uso de autoconhecimento é mais adequado?",
+    "hint": "Procure evidências, padrões e possibilidade de revisão.",
+    "options": [
+      "copiar a escolha profissional de amigos",
+      "tratar esses padrões como evidências para explorar atividades e carreiras, sem considerá-los destino definitivo",
+      "escolher uma profissão para sempre com base em uma única preferência",
+      "ignorar preferências porque elas nunca ajudam decisões"
+    ],
+    "correctIndex": 1,
+    "correctText": "tratar esses padrões como evidências para explorar atividades e carreiras, sem considerá-los destino definitivo",
+    "explanation": "Autoconhecimento organiza evidências sobre interesses, valores e modos de trabalhar, mas deve ser testado em experiências e pode mudar.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36770,
+    "family": "rastro909:6bf63a1db45b3e63",
+    "rootFamily": "rastro909:6bf63a1db45b3e63",
+    "template": "rastro909:transfer:38700eba806d",
+    "patternFamily": "rastro909:transfer:38700eba806d",
+    "solutionSteps": [
+      "Autoconhecimento organiza evidências sobre interesses, valores e modos de trabalhar, mas deve ser testado em experiências e pode mudar."
+    ],
+    "whyCorrect": "Autoconhecimento organiza evidências sobre interesses, valores e modos de trabalhar, mas deve ser testado em experiências e pode mudar.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-PROJE-10-4124D4EE",
+    "subject": "Projeto de Vida",
+    "grade": 10,
+    "area": "Tomada de decisão",
+    "skill": "Tomada de decisão",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Uma estudante precisa escolher entre duas atividades extracurriculares. Qual processo tende a produzir decisão mais consciente?",
+    "hint": "Compare critérios, consequências, reversibilidade e incerteza.",
+    "options": [
+      "escolher sempre a primeira opção disponível",
+      "seguir a maioria sem considerar objetivos próprios",
+      "evitar qualquer decisão até não existir incerteza",
+      "definir critérios importantes, comparar alternativas e revisar consequências prováveis"
+    ],
+    "correctIndex": 3,
+    "correctText": "definir critérios importantes, comparar alternativas e revisar consequências prováveis",
+    "explanation": "Decisões conscientes tornam critérios explícitos e comparam trade-offs; incerteza pode ser reduzida, não eliminada.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36771,
+    "family": "rastro909:4124d4ee6f9b4af2",
+    "rootFamily": "rastro909:4124d4ee6f9b4af2",
+    "template": "rastro909:transfer:44b490a0839e",
+    "patternFamily": "rastro909:transfer:44b490a0839e",
+    "solutionSteps": [
+      "Decisões conscientes tornam critérios explícitos e comparam trade-offs; incerteza pode ser reduzida, não eliminada."
+    ],
+    "whyCorrect": "Decisões conscientes tornam critérios explícitos e comparam trade-offs; incerteza pode ser reduzida, não eliminada.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-PROJE-11-0E90AF60",
+    "subject": "Projeto de Vida",
+    "grade": 11,
+    "area": "Autoconhecimento",
+    "skill": "Autoconhecimento",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Um aluno recebe feedbacks diferentes sobre seus pontos fortes. Qual atitude demonstra autoconhecimento mais consistente?",
+    "hint": "Procure evidências, padrões e possibilidade de revisão.",
+    "options": [
+      "rejeitar todo feedback externo",
+      "transformar uma dificuldade atual em característica imutável",
+      "comparar feedbacks com experiências próprias e procurar padrões antes de concluir",
+      "aceitar automaticamente o elogio mais agradável"
+    ],
+    "correctIndex": 2,
+    "correctText": "comparar feedbacks com experiências próprias e procurar padrões antes de concluir",
+    "explanation": "Autoconhecimento combina autorreflexão, evidências de comportamento e feedback; uma observação isolada não define a pessoa.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36772,
+    "family": "rastro909:0e90af603c4f40c0",
+    "rootFamily": "rastro909:0e90af603c4f40c0",
+    "template": "rastro909:transfer:b4e9383597df",
+    "patternFamily": "rastro909:transfer:b4e9383597df",
+    "solutionSteps": [
+      "Autoconhecimento combina autorreflexão, evidências de comportamento e feedback; uma observação isolada não define a pessoa."
+    ],
+    "whyCorrect": "Autoconhecimento combina autorreflexão, evidências de comportamento e feedback; uma observação isolada não define a pessoa.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-PROJE-11-A762FC78",
+    "subject": "Projeto de Vida",
+    "grade": 11,
+    "area": "Tomada de decisão",
+    "skill": "Tomada de decisão",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Duas opções de curso atendem objetivos diferentes: uma custa menos, outra oferece experiência prática desejada. Qual abordagem é mais adequada?",
+    "hint": "Compare critérios, consequências, reversibilidade e incerteza.",
+    "options": [
+      "tratar custo e experiência como se fossem o mesmo critério",
+      "atribuir importância aos critérios e comparar os trade-offs de cada opção",
+      "somar apenas o número de vantagens sem considerar relevância",
+      "escolher pela propaganda mais atraente"
+    ],
+    "correctIndex": 1,
+    "correctText": "atribuir importância aos critérios e comparar os trade-offs de cada opção",
+    "explanation": "Tomada de decisão melhora quando critérios distintos são explicitados e ponderados conforme os objetivos da pessoa.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36773,
+    "family": "rastro909:a762fc782f554004",
+    "rootFamily": "rastro909:a762fc782f554004",
+    "template": "rastro909:transfer:b4517a32d967",
+    "patternFamily": "rastro909:transfer:b4517a32d967",
+    "solutionSteps": [
+      "Tomada de decisão melhora quando critérios distintos são explicitados e ponderados conforme os objetivos da pessoa."
+    ],
+    "whyCorrect": "Tomada de decisão melhora quando critérios distintos são explicitados e ponderados conforme os objetivos da pessoa.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-PROJE-12-0F2632AA",
+    "subject": "Projeto de Vida",
+    "grade": 12,
+    "area": "Autoconhecimento",
+    "skill": "Autoconhecimento",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Ao revisar seus objetivos, uma estudante percebe que valorizava prestígio, mas experiências recentes mostraram maior importância de autonomia e tempo. O que essa mudança indica?",
+    "hint": "Procure evidências, padrões e possibilidade de revisão.",
+    "options": [
+      "mudar de prioridade prova falta de identidade",
+      "valores e prioridades podem ser revistos à luz de novas experiências",
+      "um objetivo antigo nunca deve ser alterado",
+      "autoconhecimento significa manter preferências fixas"
+    ],
+    "correctIndex": 1,
+    "correctText": "valores e prioridades podem ser revistos à luz de novas experiências",
+    "explanation": "Projeto de vida é iterativo: novas experiências podem alterar a compreensão de valores e prioridades sem invalidar todo o percurso.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36774,
+    "family": "rastro909:0f2632aa8950835c",
+    "rootFamily": "rastro909:0f2632aa8950835c",
+    "template": "rastro909:transfer:f26e3aeb4402",
+    "patternFamily": "rastro909:transfer:f26e3aeb4402",
+    "solutionSteps": [
+      "Projeto de vida é iterativo: novas experiências podem alterar a compreensão de valores e prioridades sem invalidar todo o percurso."
+    ],
+    "whyCorrect": "Projeto de vida é iterativo: novas experiências podem alterar a compreensão de valores e prioridades sem invalidar todo o percurso.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-PROJE-12-4B24558A",
+    "subject": "Projeto de Vida",
+    "grade": 12,
+    "area": "Tomada de decisão",
+    "skill": "Tomada de decisão",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Uma decisão importante é difícil de reverter e envolve informação incompleta. Qual estratégia reduz risco sem fingir certeza?",
+    "hint": "Compare critérios, consequências, reversibilidade e incerteza.",
+    "options": [
+      "ignorar consequências de longo prazo",
+      "buscar evidências relevantes, testar opções reversíveis quando possível e definir condições para reavaliar",
+      "esperar certeza absoluta antes de agir",
+      "decidir apenas pela emoção do momento"
+    ],
+    "correctIndex": 1,
+    "correctText": "buscar evidências relevantes, testar opções reversíveis quando possível e definir condições para reavaliar",
+    "explanation": "Boas decisões reconhecem incerteza, coletam informação, usam experimentos reversíveis quando possíveis e preveem revisão.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36775,
+    "family": "rastro909:4b24558a307a81c8",
+    "rootFamily": "rastro909:4b24558a307a81c8",
+    "template": "rastro909:transfer:7a8951b52d1e",
+    "patternFamily": "rastro909:transfer:7a8951b52d1e",
+    "solutionSteps": [
+      "Boas decisões reconhecem incerteza, coletam informação, usam experimentos reversíveis quando possíveis e preveem revisão."
+    ],
+    "whyCorrect": "Boas decisões reconhecem incerteza, coletam informação, usam experimentos reversíveis quando possíveis e preveem revisão.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-REDAC-12-EF32762E",
+    "subject": "Redação",
+    "grade": 12,
+    "area": "Conclusão",
+    "skill": "Conclusão",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Em uma redação sobre evasão escolar causada por dificuldades econômicas e falta de apoio, qual conclusão apresenta intervenção mais completa e ligada ao desenvolvimento?",
+    "hint": "Verifique se a solução resolve o problema realmente argumentado.",
+    "options": [
+      "As escolas devem falar sobre tecnologia, ainda que o texto não tenha discutido isso",
+      "O MEC, em parceria com redes locais, deve ampliar programas de permanência por meio de bolsas e equipes de acompanhamento, priorizando estudantes vulneráveis, para reduzir a evasão",
+      "É preciso melhorar a educação de alguma forma",
+      "Portanto, a evasão é um problema e todos devem ajudar"
+    ],
+    "correctIndex": 1,
+    "correctText": "O MEC, em parceria com redes locais, deve ampliar programas de permanência por meio de bolsas e equipes de acompanhamento, priorizando estudantes vulneráveis, para reduzir a evasão",
+    "explanation": "A proposta identifica agente, ação, meio/detalhamento e finalidade, além de responder às causas discutidas no desenvolvimento.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36776,
+    "family": "rastro909:ef32762ed91c5d8d",
+    "rootFamily": "rastro909:ef32762ed91c5d8d",
+    "template": "rastro909:transfer:a91f8c3ea683",
+    "patternFamily": "rastro909:transfer:a91f8c3ea683",
+    "solutionSteps": [
+      "A proposta identifica agente, ação, meio/detalhamento e finalidade, além de responder às causas discutidas no desenvolvimento."
+    ],
+    "whyCorrect": "A proposta identifica agente, ação, meio/detalhamento e finalidade, além de responder às causas discutidas no desenvolvimento.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-REDAC-12-2CE773ED",
+    "subject": "Redação",
+    "grade": 12,
+    "area": "Introdução",
+    "skill": "Introdução",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Qual introdução cumpre melhor a função de contextualizar um tema e apresentar uma tese debatível sobre desinformação?",
+    "hint": "Procure uma ideia central defendível e caminhos para o desenvolvimento.",
+    "options": [
+      "Embora o acesso à informação tenha se ampliado, a circulação de conteúdos falsos compromete decisões coletivas no Brasil, problema alimentado pela baixa educação midiática e por mecanismos de amplificação digital",
+      "Desinformação. Este é o tema da redação.",
+      "Desde o início dos tempos existem problemas, e esse assunto é muito importante",
+      "Vou falar sobre fake news porque acho interessante"
+    ],
+    "correctIndex": 0,
+    "correctText": "Embora o acesso à informação tenha se ampliado, a circulação de conteúdos falsos compromete decisões coletivas no Brasil, problema alimentado pela baixa educação midiática e por mecanismos de amplificação digital",
+    "explanation": "A alternativa apresenta contexto, problema e dois eixos argumentativos que podem ser desenvolvidos, sem apenas anunciar o tema.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36777,
+    "family": "rastro909:2ce773ed773c0acd",
+    "rootFamily": "rastro909:2ce773ed773c0acd",
+    "template": "rastro909:transfer:8309dd2cc48d",
+    "patternFamily": "rastro909:transfer:8309dd2cc48d",
+    "solutionSteps": [
+      "A alternativa apresenta contexto, problema e dois eixos argumentativos que podem ser desenvolvidos, sem apenas anunciar o tema."
+    ],
+    "whyCorrect": "A alternativa apresenta contexto, problema e dois eixos argumentativos que podem ser desenvolvidos, sem apenas anunciar o tema.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-REDAC-12-1AF62CC4",
+    "subject": "Redação",
+    "grade": 12,
+    "area": "Tese",
+    "skill": "Tese",
+    "difficulty": "médio",
+    "type": "interpretação",
+    "prompt": "Tema: “Desafios para ampliar a leitura literária entre jovens no Brasil”. Qual frase funciona melhor como tese?",
+    "hint": "Uma tese precisa dizer algo discutível sobre o problema, não apenas repetir o tema.",
+    "options": [
+      "Livros podem ter capas de várias cores",
+      "Neste texto falarei sobre leitura",
+      "A baixa formação de hábitos leitores e o acesso desigual a acervos dificultam a aproximação dos jovens com a literatura",
+      "A leitura existe em muitos países"
+    ],
+    "correctIndex": 2,
+    "correctText": "A baixa formação de hábitos leitores e o acesso desigual a acervos dificultam a aproximação dos jovens com a literatura",
+    "explanation": "A tese apresenta um posicionamento específico e dois fatores que podem ser defendidos nos parágrafos de desenvolvimento.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36778,
+    "family": "rastro909:1af62cc486028d0e",
+    "rootFamily": "rastro909:1af62cc486028d0e",
+    "template": "rastro909:transfer:74b9182f8ce2",
+    "patternFamily": "rastro909:transfer:74b9182f8ce2",
+    "solutionSteps": [
+      "A tese apresenta um posicionamento específico e dois fatores que podem ser defendidos nos parágrafos de desenvolvimento."
+    ],
+    "whyCorrect": "A tese apresenta um posicionamento específico e dois fatores que podem ser defendidos nos parágrafos de desenvolvimento.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ROBOT-10-9CDAE4CB",
+    "subject": "Robótica",
+    "grade": 10,
+    "area": "Eletrônica básica",
+    "skill": "Eletrônica básica",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Um LED é ligado diretamente a uma fonte de tensão adequada, mas sem resistor limitador, e queima rapidamente. Qual componente deveria limitar a corrente no circuito simples?",
+    "hint": "Pense no componente passivo usado para limitar corrente.",
+    "options": [
+      "Resistor",
+      "Sensor ultrassônico",
+      "Servo motor",
+      "Interruptor aberto permanentemente"
+    ],
+    "correctIndex": 0,
+    "correctText": "Resistor",
+    "explanation": "Um resistor em série limita a corrente que atravessa o LED, protegendo o componente quando dimensionado adequadamente.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36779,
+    "family": "rastro909:9cdae4cb68fa7d8d",
+    "rootFamily": "rastro909:9cdae4cb68fa7d8d",
+    "template": "rastro909:transfer:3f8f8729b3f1",
+    "patternFamily": "rastro909:transfer:3f8f8729b3f1",
+    "solutionSteps": [
+      "Um resistor em série limita a corrente que atravessa o LED, protegendo o componente quando dimensionado adequadamente."
+    ],
+    "whyCorrect": "Um resistor em série limita a corrente que atravessa o LED, protegendo o componente quando dimensionado adequadamente.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ROBOT-11-4E085B1C",
+    "subject": "Robótica",
+    "grade": 11,
+    "area": "Eletrônica básica",
+    "skill": "Eletrônica básica",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Em um circuito simples, uma tensão de 5 V é aplicada a um resistor de 1 kΩ. Pela lei de Ohm, qual corrente aproximadamente circula?",
+    "hint": "Use I=V/R e converta amperes para miliamperes.",
+    "options": [
+      "0,2 mA",
+      "1000 A",
+      "5 mA",
+      "5 A"
+    ],
+    "correctIndex": 2,
+    "correctText": "5 mA",
+    "explanation": "Pela lei de Ohm, I=V/R. Assim, I=5/1000 A=0,005 A. Como 1 A corresponde a 1000 mA, a corrente é 5 mA.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36780,
+    "family": "rastro909:4e085b1c601e2f98",
+    "rootFamily": "rastro909:4e085b1c601e2f98",
+    "template": "rastro909:transfer:cb9553d289f1",
+    "patternFamily": "rastro909:transfer:cb9553d289f1",
+    "solutionSteps": [
+      "I=5/1000=0,005 A=5 mA."
+    ],
+    "whyCorrect": "Pela lei de Ohm, I=V/R. Assim, I=5/1000 A=0,005 A. Como 1 A corresponde a 1000 mA, a corrente é 5 mA.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ROBOT-12-DBCE44FA",
+    "subject": "Robótica",
+    "grade": 12,
+    "area": "Atuadores",
+    "skill": "Atuadores",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Em um robô, qual componente é um atuador?",
+    "hint": "Pergunte qual componente age fisicamente no ambiente.",
+    "options": [
+      "um termistor que mede temperatura",
+      "um servo que movimenta uma articulação",
+      "um sensor de luminosidade",
+      "um sensor ultrassônico"
+    ],
+    "correctIndex": 1,
+    "correctText": "um servo que movimenta uma articulação",
+    "explanation": "Atuadores transformam comandos/energia em ação física; o servo produz movimento. Sensores medem grandezas do ambiente.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36781,
+    "family": "rastro909:dbce44faac5b792a",
+    "rootFamily": "rastro909:dbce44faac5b792a",
+    "template": "rastro909:transfer:eff24b0058ae",
+    "patternFamily": "rastro909:transfer:eff24b0058ae",
+    "solutionSteps": [
+      "Atuadores transformam comandos/energia em ação física; o servo produz movimento. Sensores medem grandezas do ambiente."
+    ],
+    "whyCorrect": "Atuadores transformam comandos/energia em ação física; o servo produz movimento. Sensores medem grandezas do ambiente.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  },
+  {
+    "id": "R909-ROBOT-12-87539F91",
+    "subject": "Robótica",
+    "grade": 12,
+    "area": "Sensores",
+    "skill": "Sensores",
+    "difficulty": "médio",
+    "type": "aplicação",
+    "prompt": "Um robô precisa detectar a distância até uma parede para evitar colisão. Qual componente cumpre diretamente a função de sensor?",
+    "hint": "Diferencie medir o ambiente de produzir movimento.",
+    "options": [
+      "engrenagem redutora",
+      "sensor ultrassônico de distância",
+      "motor DC",
+      "servo de direção"
+    ],
+    "correctIndex": 1,
+    "correctText": "sensor ultrassônico de distância",
+    "explanation": "O sensor ultrassônico mede distância a partir do tempo de propagação do som; motores e servos são atuadores.",
+    "references": [],
+    "origin": {
+      "type": "autoral_aeds",
+      "label": "Contraprova autoral AEDS Rastro 2.1"
+    },
+    "version": "9.0.9",
+    "n": 36782,
+    "family": "rastro909:87539f9140570e4a",
+    "rootFamily": "rastro909:87539f9140570e4a",
+    "template": "rastro909:transfer:230d2eea286c",
+    "patternFamily": "rastro909:transfer:230d2eea286c",
+    "solutionSteps": [
+      "O sensor ultrassônico mede distância a partir do tempo de propagação do som; motores e servos são atuadores."
+    ],
+    "whyCorrect": "O sensor ultrassônico mede distância a partir do tempo de propagação do som; motores e servos são atuadores.",
+    "questionType": "multiple_choice",
+    "calculatorAllowed": false,
+    "editorial": {
+      "version": "9.0.9",
+      "status": "published",
+      "purpose": "rastro_counterproof",
+      "review": "strict"
+    }
+  }
+]

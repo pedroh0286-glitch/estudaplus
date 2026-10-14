@@ -1,0 +1,76 @@
+{
+  "version": "9.0.9",
+  "environment": {
+    "cpus": 5,
+    "totalMemoryBytes": 6236880896,
+    "fdSoftLimit": 16384
+  },
+  "holdMs": 180,
+  "attempts": [
+    {
+      "concurrent": 10000,
+      "ok": 10000,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 2355,
+      "maxInFlight": 10000
+    },
+    {
+      "concurrent": 16000,
+      "ok": 16000,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 3356,
+      "maxInFlight": 16000
+    },
+    {
+      "concurrent": 16300,
+      "ok": 16300,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 4225,
+      "maxInFlight": 16300
+    },
+    {
+      "concurrent": 16350,
+      "ok": 16350,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 4347,
+      "maxInFlight": 16350
+    },
+    {
+      "concurrent": 16370,
+      "ok": 16362,
+      "fail": 8,
+      "firstError": "EMFILE",
+      "durationMs": 4021,
+      "maxInFlight": 16370
+    }
+  ],
+  "confirmations": [
+    {
+      "concurrent": 16350,
+      "ok": 16350,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 5032,
+      "maxInFlight": 16350
+    },
+    {
+      "concurrent": 16350,
+      "ok": 16350,
+      "fail": 0,
+      "firstError": null,
+      "durationMs": 6310,
+      "maxInFlight": 16350
+    }
+  ],
+  "maxZeroFailConcurrent": 16350,
+  "maxStableConcurrent": 16350,
+  "firstFailConcurrent": 16370,
+  "firstFailCount": 8,
+  "firstFailReason": "EMFILE",
+  "reachedEnvironmentCeiling": true,
+  "scope": "servidor HTTP local com arquivo pré-carregado; 16.350 foi repetido em processos limpos e passou 3/3. 16.370 foi o primeiro nível falho por EMFILE. Mede o teto deste ambiente, não o limite contratado de Vercel/Supabase"
+}

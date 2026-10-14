@@ -1,0 +1,31 @@
+# Regras de rigor — AEDS Rastro 2.1 / 9.0.9
+
+- R1 — Um erro, dúvida ou chute abre um caso; um único acerto nunca encerra o caso.
+- R2 — Aplicação, diagnóstico e raciocínio numerado da mesma habilidade usam uma chave canônica; formato não fragmenta a habilidade.
+- R3 — Contraprova só vale se mudar família e padrão e ficar abaixo do limite de similaridade.
+- R4 — Uma resposta gera no máximo um evento de falha e um evento de prova; eventos duplicados são idempotentes.
+- R5 — Recuperação imediata exige contraprova independente; verificação final exige também acerto após intervalo.
+- R6 — Quatro falhas acionam bloqueio persistente de revisão humana; nenhum acerto posterior remove esse bloqueio.
+- R7 — Somente revisão administrativa explícita, identificada e justificada pode liberar um caso escalado.
+- R8 — Questão vista recentemente não é repetida para satisfazer o motor; a contraprova é adiada.
+- R9 — Dívida de contraprova independente é bloqueadora de release: a 9.0.9 exige cobertura zero.
+- R10 — O item errado precisa ser acertado novamente numa rechecagem espaçada; item parecido não apaga o erro original.
+- R11 — Acerto com dúvida/chute é fragilidade, não domínio.
+- R12 — Rastro nunca afrouxa antirrepetição, contexto completo ou qualidade para preencher uma rota.
+- R13 — Estado cognitivo é isolado por usuário; nenhum caso, score ou evidência atravessa contas.
+- R14 — Rastro continua transversal: criar página/aba própria é regressão.
+- R15 — Toda mudança do Rastro executa matriz exaustiva de sinais sobre todas as questões ativas e população sintética.
+- R16 — Sincronização em nuvem usa outbox persistente: falha não pode transformar estado pendente em estado perdido.
+- R17 — 429 respeita Retry-After; 5xx/rede usam backoff; 401/403 pausam até autenticação válida.
+- R18 — Estado alterado durante um upload continua pendente depois que o snapshot antigo é salvo.
+- R19 — Aluno carrega inicialmente apenas a série atual/histórico; outros pacotes entram sob demanda.
+- R20 — Shell estático pré-cacheado não exige ida à rede a cada asset; navegação mantém atualização com fallback offline.
+- R21 — Teste de carga de release sobe em rampa até a saturação/limite do ambiente e registra primeiro nível falho.
+- R22 — Resultado de harness local nunca pode ser anunciado como capacidade contratada de Vercel/Supabase.
+- R23 — Toda falha reproduzível descoberta em QA deve apontar para correção e teste permanente antes do release.
+- R24 — O intervalo mínimo entre uploads só se aplica depois de uma tentativa real; o primeiro push não pode colapsar milhares de usuários no mesmo marco temporal.
+- R25 — Contraprovas autorais obedecem aos mesmos gates de conteúdo: enunciado único, estrutura não clonada e explicação pedagógica suficiente.
+- R26 — APIs opcionais do navegador usam detecção de capacidade; ausência de addEventListener ou recurso equivalente não pode derrubar a lógica do app.
+- R27 — Testes históricos de regressão preservam regras antigas sem bloquear uma versão nova apenas por número de versão; o teste de release valida a versão atual separadamente.
+- R28 — Saturação externa do laboratório, como EMFILE do sistema operacional, é classificada como teto do ambiente e não como defeito fictício da AEDS.
+- R29 — O máximo de carga só é considerado estável após repetição em processos limpos; uma passagem isolada ou contaminada por sockets residuais não vale como teto confiável.

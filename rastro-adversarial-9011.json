@@ -1,0 +1,9 @@
+{
+  "version": "9.0.11",
+  "rastro": "3.0",
+  "tests": 10,
+  "errors": 0,
+  "positiveGate": "verified",
+  "antiFarm": true,
+  "expiryDays": 30
+}

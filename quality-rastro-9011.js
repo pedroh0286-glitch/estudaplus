@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+'use strict';
+const fs=require('fs'),path=require('path'),vm=require('vm'),zlib=require('zlib');const root=__dirname,errors=[];const fail=x=>errors.push(x);
+for(const f of ['rastro.js','learning-methods.js','rastro-adversarial-9011.js','app.js','index.html','sw.js','content-loader.js'])if(!fs.existsSync(path.join(root,f)))fail('arquivo ausente: '+f);
+const c={window:{}};vm.createContext(c);vm.runInContext(fs.readFileSync(path.join(root,'rastro.js'),'utf8'),c);const R=c.window.AEDS_RASTRO;if(!R)fail('Rastro não carregou');if(R?.VERSION!=='3.0')fail('Rastro não está em 3.0');
+if(R?.VERIFICATION_TTL_DAYS!==30)fail('expiração não está em 30 dias');
+// audit real bank coverage
+let qs=[];for(const f of fs.readdirSync(path.join(root,'data/questions')).filter(x=>x.endsWith('.js'))){const s=fs.readFileSync(path.join(root,'data/questions',f),'utf8'),m=s.match(/='([^']+)'/);if(!m){fail('payload inválido '+f);continue}qs.push(...JSON.parse(zlib.gunzipSync(Buffer.from(m[1],'base64')).toString()))}qs=qs.filter(q=>q.active!==false&&q.questionType==='multiple_choice');const skills=new Map();for(const q of qs){const k=R.skillKey(q),f=R.familyOf(q)||q.id,p=R.patternOf(q)||q.id;if(!skills.has(k))skills.set(k,{q:new Set(),f:new Set(),p:new Set(),s:new Set(),d:new Set()});const x=skills.get(k);x.q.add(q.id);x.f.add(f);x.p.add(p);x.s.add(f+'|'+p);x.d.add(R.diffLevel(q))}const sparse=[...skills.entries()].filter(([,x])=>x.p.size<2||x.s.size<2||x.q.size<2);if(sparse.length)fail(`habilidades sem mínimo estrutural para domínio: ${sparse.length}`);
+const app=fs.readFileSync(path.join(root,'app.js'),'utf8'),html=fs.readFileSync(path.join(root,'index.html'),'utf8'),sw=fs.readFileSync(path.join(root,'sw.js'),'utf8'),loader=fs.readFileSync(path.join(root,'content-loader.js'),'utf8');
+for(const t of ['AEDS 9.0.11: Rastro 3.0','rastroCoverage','rastroMethodRecommendation','studyMethod'])if(!app.includes(t))fail('app sem '+t);if(/data-page=["']rastro|ui\.page\s*=\s*["']rastro/.test(app+html))fail('Rastro virou página');for(const f of ['learning-methods.js','rastro.js'])if(!html.includes(f)||!sw.includes(`'./${f}'`))fail(`shell não carrega/cacheia ${f}`);if(!loader.includes("VERSION:'9.0.11'")||!loader.includes('aeds-v9-0-11-content'))fail('loader não está em 9.0.11');
+const adv=require('child_process').spawnSync(process.execPath,[path.join(root,'rastro-adversarial-9011.js')],{encoding:'utf8'});if(adv.status!==0)fail('adversarial: '+(adv.stderr||adv.stdout));
+if(errors.length){for(const e of errors)console.error('ERRO:',e);process.exit(1)}
+const fam3=[...skills.values()].filter(x=>x.f.size>=3).length,pat3=[...skills.values()].filter(x=>x.p.size>=3).length,diff2=[...skills.values()].filter(x=>x.d.size>=2).length;
+console.log(`OK Rastro 3.0 / AEDS 9.0.11 — ${skills.size} micro-habilidades; mínimo estrutural em 100%; >=3 famílias ${fam3}; >=3 padrões ${pat3}; >=2 dificuldades ${diff2}; adversarial verde.`);

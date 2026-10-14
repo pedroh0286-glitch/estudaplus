@@ -1,0 +1,12 @@
+{
+  "users": 10000,
+  "localSaveEvents": 50000,
+  "cloudPushes": 10000,
+  "coalescingRatio": 5,
+  "firstPushMs": 1401,
+  "lastPushMs": 5499,
+  "peakPushesPer100ms": 272,
+  "peakPushesPerSecond": 2457,
+  "rule": "local save imediato; cloud debounce+jitter; uma conta nunca faz dois pushes simultâneos; retry com backoff",
+  "scope": "modelo determinístico do agendamento do cliente; não mede capacidade contratada do Supabase"
+}
